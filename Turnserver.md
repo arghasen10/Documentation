@@ -89,4 +89,24 @@ This will start the service of coturn in the server. We can check the status of 
 ```
 systemctl status coturn
 ```
-
+# Working
+In the client javascript of our WebRTC application we can use our turnserver as shown 
+```javascript
+var pc_config = {
+        "iceServers": [
+          {
+              urls: ["stun:stun.realm:80"]
+          },
+          {
+              username: 'username',
+              credential: 'password',
+              urls: [
+                  "turn:turn.realm:80?transport=udp",
+                  "turn:turn.realm:443?transport=tcp",
+                  "turns:turn.realm:443?transport=tcp",
+              ]
+          }
+      ]
+}
+var pc = new RTCPeerConnection(pc_config);
+```
