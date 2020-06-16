@@ -9,12 +9,18 @@ In order to succeed with the implementation of turn server, we will need the fol
 - SSL Certificates for the domain. Without the secure protocol, our server implementation won't be completed and after using it on our WebRTC projects with HTTPS it won't work.
 
 ## Installation of Coturn
-```sudo apt-get -y update```
+```
+sudo apt-get -y update
+```
 
-```sudo apt-get install coturn```
+```
+sudo apt-get install coturn
+```
 
 After successful installation stop the service as it will be automatically started once the installation finishes.
-```systemctl stop coturn```
+```
+systemctl stop coturn
+```
 
 ## Enable Coturn
 After the installation, we will need to enable the TURN server in the configuration file of coturn. To do this, uncomment the TURNSERVER_ENABLED property in the /etc/default/coturn file.
