@@ -24,7 +24,8 @@ systemctl stop coturn
 
 ## Enable Coturn
 After the installation, we will need to enable the TURN server in the configuration file of coturn. To do this, uncomment the TURNSERVER_ENABLED property in the /etc/default/coturn file.
-```nano /etc/default/coturn```
+```nano /etc/default/coturn
+```
 
 Be sure that the content of the file has the property uncommented, just like this:
 >TURNSERVER_ENABLED=1
