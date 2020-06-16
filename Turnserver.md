@@ -9,16 +9,16 @@ In order to succeed with the implementation of turn server, we will need the fol
 - SSL Certificates for the domain. Without the secure protocol, our server implementation won't be completed and after using it on our WebRTC projects with HTTPS it won't work.
 
 ## Installation of Coturn
-> sudo apt-get -y update
+```sudo apt-get -y update```
 
-> sudo apt-get install coturn
+```sudo apt-get install coturn```
 
 After successful installation stop the service as it will be automatically started once the installation finishes.
-> systemctl stop coturn
+```systemctl stop coturn```
 
 ## Enable Coturn
 After the installation, we will need to enable the TURN server in the configuration file of coturn. To do this, uncomment the TURNSERVER_ENABLED property in the /etc/default/coturn file.
-> nano /etc/default/coturn
+```nano /etc/default/coturn```
 
 Be sure that the content of the file has the property uncommented, just like this:
 >TURNSERVER_ENABLED=1
@@ -27,7 +27,7 @@ Save the changes and proceed with the next step.
 
 ## Required Changes in Coturn Configuration file
 Now in the configuration file we need to add some changes according to our needs.
-> nano /etc/turnserver.conf
+```nano /etc/turnserver.conf```
 
 And paste the following content on it:
 ```
@@ -63,12 +63,12 @@ proc-group=turnserver
 ## Long term user using turnadmin
 One can add a turn user in the configuration file or can use [turnadmin](https://github.com/coturn/coturn/wiki/turnadmin) for adding or removing user. Turnadmin comes included in the default package of coturn, this application is a TURN relay administration tool that allows to manage the users of turn/stun server. Clients will need credentials in order to connect to turn server, so clients can be registered like this:
 
->sudo turnadmin -a -u USERNAME -r REALM -p PASSWORD
+```sudo turnadmin -a -u USERNAME -r REALM -p PASSWORD```
 
 ## Turn coturn server on
 After creating the users and configuring coturn properly, we will be able to start the service so clients can connect to it. Proceed with the initialization of the service with the following command:
-> systemctl start coturn
+```systemctl start coturn```
 
 This will start the service of coturn in the server. We can check the status of the service with the following command:
-> systemctl status coturn
+```systemctl status coturn```
 
