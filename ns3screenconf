@@ -1,0 +1,75 @@
+term "screen-256color"
+# the following two lines give a two-line status, with the current window highlighted
+hardstatus alwayslastline
+hardstatus string '%{= kG}[%{G}%H%? %1%?%{g}][%= %{= kw}%-w%{+b yk} %n*%t%?(%u)%? %{-}%+w %=%{g}][%{B}%m/%d %{W}%C%A%{g}]'
+
+defutf8 on
+# huge scrollback buffer
+defscrollback 5000
+
+# no welcome message
+startup_message off
+#shell /bin/bash
+
+bind c screen
+
+source .screenrclocal
+# resetting the path variable
+setenv PATH "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+
+screen -t a0
+stuff "python3.7 abrProxyServer.py --meta-dir dashedmetadata --video bbb4s --abr bola --port 8333"
+screen -t e001
+stuff "mkdir dash-0-1-bola; ./waf --run \"scratch/multicell-dash --outputDir=dash-0-1-bola --AbrPort=8333 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e002
+stuff "mkdir dash-0-2-bola; ./waf --run \"scratch/multicell-dash --outputDir=dash-0-2-bola --AbrPort=8333 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e003
+stuff "mkdir dash-0-3-bola; ./waf --run \"scratch/multicell-dash --outputDir=dash-0-3-bola --AbrPort=8333 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e011
+stuff "mkdir dash-1-1-bola; ./waf --run \"scratch/multicell-dash --outputDir=dash-1-1-bola --AbrPort=8333 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e012
+stuff "mkdir dash-1-2-bola; ./waf --run \"scratch/multicell-dash --outputDir=dash-1-2-bola --AbrPort=8333 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e013
+stuff "mkdir dash-1-3-bola; ./waf --run \"scratch/multicell-dash --outputDir=dash-1-3-bola --AbrPort=8333 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t a1
+stuff "python3.7 abrProxyServer.py --meta-dir dashedmetadata --video bbb4s --abr pensieve --port 8334"
+screen -t e101
+stuff "mkdir dash-0-1-pensieve; ./waf --run \"scratch/multicell-dash --outputDir=dash-0-1-pensieve --AbrPort=8334 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e102
+stuff "mkdir dash-0-2-pensieve; ./waf --run \"scratch/multicell-dash --outputDir=dash-0-2-pensieve --AbrPort=8334 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e103
+stuff "mkdir dash-0-3-pensieve; ./waf --run \"scratch/multicell-dash --outputDir=dash-0-3-pensieve --AbrPort=8334 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e111
+stuff "mkdir dash-1-1-pensieve; ./waf --run \"scratch/multicell-dash --outputDir=dash-1-1-pensieve --AbrPort=8334 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e112
+stuff "mkdir dash-1-2-pensieve; ./waf --run \"scratch/multicell-dash --outputDir=dash-1-2-pensieve --AbrPort=8334 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e113
+stuff "mkdir dash-1-3-pensieve; ./waf --run \"scratch/multicell-dash --outputDir=dash-1-3-pensieve --AbrPort=8334 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t a2
+stuff "python3.7 abrProxyServer.py --meta-dir dashedmetadata --video bbb4s --abr fastMPC --port 8335"
+screen -t e201
+stuff "mkdir dash-0-1-fastMPC; ./waf --run \"scratch/multicell-dash --outputDir=dash-0-1-fastMPC --AbrPort=8335 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e202
+stuff "mkdir dash-0-2-fastMPC; ./waf --run \"scratch/multicell-dash --outputDir=dash-0-2-fastMPC --AbrPort=8335 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e203
+stuff "mkdir dash-0-3-fastMPC; ./waf --run \"scratch/multicell-dash --outputDir=dash-0-3-fastMPC --AbrPort=8335 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e211
+stuff "mkdir dash-1-1-fastMPC; ./waf --run \"scratch/multicell-dash --outputDir=dash-1-1-fastMPC --AbrPort=8335 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e212
+stuff "mkdir dash-1-2-fastMPC; ./waf --run \"scratch/multicell-dash --outputDir=dash-1-2-fastMPC --AbrPort=8335 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e213
+stuff "mkdir dash-1-3-fastMPC; ./waf --run \"scratch/multicell-dash --outputDir=dash-1-3-fastMPC --AbrPort=8335 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t a3
+stuff "python3.7 abrProxyServer.py --meta-dir dashedmetadata --video bbb4s --abr robustMPC --port 8336"
+screen -t e301
+stuff "mkdir dash-0-1-robustMPC; ./waf --run \"scratch/multicell-dash --outputDir=dash-0-1-robustMPC --AbrPort=8336 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e302
+stuff "mkdir dash-0-2-robustMPC; ./waf --run \"scratch/multicell-dash --outputDir=dash-0-2-robustMPC --AbrPort=8336 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e303
+stuff "mkdir dash-0-3-robustMPC; ./waf --run \"scratch/multicell-dash --outputDir=dash-0-3-robustMPC --AbrPort=8336 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e311
+stuff "mkdir dash-1-1-robustMPC; ./waf --run \"scratch/multicell-dash --outputDir=dash-1-1-robustMPC --AbrPort=8336 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e312
+stuff "mkdir dash-1-2-robustMPC; ./waf --run \"scratch/multicell-dash --outputDir=dash-1-2-robustMPC --AbrPort=8336 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
+screen -t e313
+stuff "mkdir dash-1-3-robustMPC; ./waf --run \"scratch/multicell-dash --outputDir=dash-1-3-robustMPC --AbrPort=8336 --MobilityType= --MinSpeed=12 --MaxSpeed=16\""
