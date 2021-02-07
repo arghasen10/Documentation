@@ -18,50 +18,50 @@ source .screenrclocal
 setenv PATH "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 
 screen -t e001
-stuff "mkdir dash-0-1; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-1 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-0-1-0; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-1-0 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e002
-stuff "mkdir dash-0-2; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-2 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-0-2-0; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-2-0 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e003
-stuff "mkdir dash-0-3; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-3 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-0-3-0; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-3-0 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e011
-stuff "mkdir dash-1-1; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-1 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-1-1-0; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-1-0 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e012
-stuff "mkdir dash-1-2; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-2 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-1-2-0; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-2-0 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e013
-stuff "mkdir dash-1-3; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-3 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-1-3-0; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-3-0 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e101
-stuff "mkdir dash-0-1; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-1 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-0-1-1; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-1-1 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e102
-stuff "mkdir dash-0-2; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-2 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-0-2-1; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-2-1 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e103
-stuff "mkdir dash-0-3; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-3 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-0-3-1; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-3-1 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e111
-stuff "mkdir dash-1-1; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-1 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-1-1-1; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-1-1 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e112
-stuff "mkdir dash-1-2; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-2 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-1-2-1; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-2-1 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e113
-stuff "mkdir dash-1-3; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-3 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-1-3-1; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-3-1 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e201
-stuff "mkdir dash-0-1; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-1 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-0-1-2; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-1-2 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e202
-stuff "mkdir dash-0-2; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-2 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-0-2-2; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-2-2 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e203
-stuff "mkdir dash-0-3; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-3 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-0-3-2; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-3-2 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e211
-stuff "mkdir dash-1-1; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-1 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-1-1-2; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-1-2 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e212
-stuff "mkdir dash-1-2; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-2 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-1-2-2; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-2-2 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e213
-stuff "mkdir dash-1-3; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-3 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-1-3-2; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-3-2 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e301
-stuff "mkdir dash-0-1; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-1 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-0-1-3; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-1-3 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e302
-stuff "mkdir dash-0-2; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-2 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-0-2-3; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-2-3 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e303
-stuff "mkdir dash-0-3; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-3 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-0-3-3; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-0-3-3 --MobilityType=0 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e311
-stuff "mkdir dash-1-1; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-1 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-1-1-3; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-1-3 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e312
-stuff "mkdir dash-1-2; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-2 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-1-2-3; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-2-3 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
 screen -t e313
-stuff "mkdir dash-1-3; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-3 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
+stuff "mkdir dash-1-3-3; ./waf --run \"scratch/multicell-dash-file-downloader2 --outputDir=dash-1-3-3 --MobilityType=1 --MinSpeed=12 --MaxSpeed=16\""
