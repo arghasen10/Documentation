@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sun 11 Oct 2020 11:59:04 PM IST by Eclipse SUMO GUI Version 1.7.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/abhijit/projects/ns-3.31/src/spdash/mobilitydata/2.2.net.xml"/>
+        <route-files value="/home/abhijit/projects/ns-3.31/src/spdash/mobilitydata/2.2.rou.xml"/>
+    </input>
+
+</configuration>

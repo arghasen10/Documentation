@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.8.3 (3930313 spike-08.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="22.3158200" minlon="87.3002700" maxlat="22.3208900" maxlon="87.3114600"/>
+ <node id="1471006540" visible="true" version="4" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3186563" lon="87.3055312"/>
+ <node id="1471006543" visible="true" version="4" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3185838" lon="87.3039461"/>
+ <node id="1471006545" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3173411" lon="87.3053136"/>
+ <node id="1471006548" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3176290" lon="87.3040584"/>
+ <node id="1471006550" visible="true" version="4" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3176780" lon="87.3056377"/>
+ <node id="1471006559" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3189788" lon="87.3042837"/>
+ <node id="1471006560" visible="true" version="4" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3190039" lon="87.3052015"/>
+ <node id="1471006562" visible="true" version="4" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3172931" lon="87.3044389"/>
+ <node id="1471010184" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3169146" lon="87.3075785"/>
+ <node id="1471010185" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3144220" lon="87.3078550"/>
+ <node id="1471010186" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3146326" lon="87.3100740"/>
+ <node id="1471010187" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3171253" lon="87.3097975"/>
+ <node id="1471010529" visible="true" version="2" changeset="19877811" timestamp="2014-01-08T08:43:52Z" user="sa1" uid="1872247" lat="22.3166790" lon="87.3076140">
+  <tag k="amenity" v="restaurant"/>
+  <tag k="cuisine" v="indian"/>
+  <tag k="name" v="Tikka"/>
+ </node>
+ <node id="1471017863" visible="true" version="3" changeset="49388331" timestamp="2017-06-09T07:24:26Z" user="Mayank Suman" uid="2250271" lat="22.3186300" lon="87.3025744">
+  <tag k="addr:street" v="IIT, Kharagpur"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="Technology Student Gymkhana"/>
+ </node>
+ <node id="1471021264" visible="true" version="2" changeset="29972780" timestamp="2015-04-04T13:58:33Z" user="Mayank Suman" uid="2250271" lat="22.3169642" lon="87.3034205">
+  <tag k="name" v="Technology Club"/>
+  <tag k="tourism" v="guest_house"/>
+ </node>
+ <node id="1471025054" visible="true" version="5" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3173812" lon="87.3012661"/>
+ <node id="1471025056" visible="true" version="5" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3178523" lon="87.3013932"/>
+ <node id="1471025057" visible="true" version="5" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3174129" lon="87.3014721"/>
+ <node id="1471025073" visible="true" version="5" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3178207" lon="87.3011872"/>
+ <node id="1471040636" visible="true" version="4" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3191303" lon="87.3027063"/>
+ <node id="1471040638" visible="true" version="2" changeset="36711312" timestamp="2016-01-20T22:59:45Z" user="deepank" uid="1509823" lat="22.3163603" lon="87.3024494"/>
+ <node id="1471040640" visible="true" version="4" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3198447" lon="87.3085992"/>
+ <node id="1471040642" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3182941" lon="87.3009286"/>
+ <node id="1471040644" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3177373" lon="87.3008021"/>
+ <node id="1471040647" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3187671" lon="87.3013693"/>
+ <node id="1471040653" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3189676" lon="87.3018786"/>
+ <node id="1471043724" visible="true" version="3" changeset="36720661" timestamp="2016-01-21T13:57:03Z" user="Chetan_Gowda" uid="2644101" lat="22.3179593" lon="87.3058447"/>
+ <node id="1471043731" visible="true" version="3" changeset="36720661" timestamp="2016-01-21T13:57:03Z" user="Chetan_Gowda" uid="2644101" lat="22.3173344" lon="87.3063531"/>
+ <node id="1471043734" visible="true" version="2" changeset="36720661" timestamp="2016-01-21T13:57:03Z" user="Chetan_Gowda" uid="2644101" lat="22.3179103" lon="87.3061914"/>
+ <node id="1471043736" visible="true" version="2" changeset="36720661" timestamp="2016-01-21T13:57:03Z" user="Chetan_Gowda" uid="2644101" lat="22.3176508" lon="87.3064054"/>
+ <node id="1471043739" visible="true" version="2" changeset="36720661" timestamp="2016-01-21T13:57:03Z" user="Chetan_Gowda" uid="2644101" lat="22.3171790" lon="87.3057158"/>
+ <node id="1471043742" visible="true" version="2" changeset="36720661" timestamp="2016-01-21T13:57:03Z" user="Chetan_Gowda" uid="2644101" lat="22.3173698" lon="87.3061025"/>
+ <node id="1471043744" visible="true" version="2" changeset="36720661" timestamp="2016-01-21T13:57:03Z" user="Chetan_Gowda" uid="2644101" lat="22.3176863" lon="87.3061544"/>
+ <node id="1471043747" visible="true" version="3" changeset="36720661" timestamp="2016-01-21T13:57:03Z" user="Chetan_Gowda" uid="2644101" lat="22.3171299" lon="87.3060628"/>
+ <node id="1471047418" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T18:45:45Z" user="RBEI-ArunKumar" uid="535778" lat="22.3183537" lon="87.3074867">
+  <tag k="name" v="Sarojini Naidu Hall"/>
+  <tag k="tourism" v="guest_house"/>
+ </node>
+ <node id="1471049314" visible="true" version="4" changeset="36488656" timestamp="2016-01-10T18:29:35Z" user="deepank" uid="1509823" lat="22.3190389" lon="87.3069965"/>
+ <node id="1471049316" visible="true" version="4" changeset="36488656" timestamp="2016-01-10T18:29:35Z" user="deepank" uid="1509823" lat="22.3188627" lon="87.3058483"/>
+ <node id="1471049317" visible="true" version="3" changeset="36488179" timestamp="2016-01-10T18:03:27Z" user="deepank" uid="1509823" lat="22.3180853" lon="87.3059895"/>
+ <node id="1471049320" visible="true" version="4" changeset="36488656" timestamp="2016-01-10T18:29:35Z" user="deepank" uid="1509823" lat="22.3180371" lon="87.3069112"/>
+ <node id="1471050844" visible="true" version="2" changeset="24659521" timestamp="2014-08-10T17:23:12Z" user="Mayank Suman" uid="2250271" lat="22.3191973" lon="87.3067893">
+  <tag k="building" v="office"/>
+  <tag k="name" v="H M C Office"/>
+ </node>
+ <node id="1471051373" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T18:48:45Z" user="RBEI-ArunKumar" uid="535778" lat="22.3191080" lon="87.3058881">
+  <tag k="amenity" v="restaurant"/>
+  <tag k="name" v="Veggies"/>
+ </node>
+ <node id="1471053421" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3183657" lon="87.3078853"/>
+ <node id="1471053428" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3173897" lon="87.3086306"/>
+ <node id="1471053430" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3172309" lon="87.3072734"/>
+ <node id="1471054746" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3179474" lon="87.3093373"/>
+ <node id="1471054748" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3176150" lon="87.3093792"/>
+ <node id="1471054755" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3178685" lon="87.3086054"/>
+ <node id="1471054757" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3175362" lon="87.3086472"/>
+ <node id="1471055912" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T18:53:19Z" user="RBEI-ArunKumar" uid="535778" lat="22.3179071" lon="87.3103835"/>
+ <node id="1471055913" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T18:53:19Z" user="RBEI-ArunKumar" uid="535778" lat="22.3177284" lon="87.3108019"/>
+ <node id="1471055914" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T18:53:19Z" user="RBEI-ArunKumar" uid="535778" lat="22.3176986" lon="87.3104049"/>
+ <node id="1471055915" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T18:53:19Z" user="RBEI-ArunKumar" uid="535778" lat="22.3180460" lon="87.3113705"/>
+ <node id="1471055916" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T18:53:19Z" user="RBEI-ArunKumar" uid="535778" lat="22.3177780" lon="87.3110379"/>
+ <node id="1471055917" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T18:53:19Z" user="RBEI-ArunKumar" uid="535778" lat="22.3176391" lon="87.3110379"/>
+ <node id="1471055918" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T18:53:20Z" user="RBEI-ArunKumar" uid="535778" lat="22.3176192" lon="87.3108341"/>
+ <node id="1471055919" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T18:53:20Z" user="RBEI-ArunKumar" uid="535778" lat="22.3178376" lon="87.3114134"/>
+ <node id="1471067937" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3164351" lon="87.3113237"/>
+ <node id="1471067938" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3168092" lon="87.3102979"/>
+ <node id="1471067939" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3169213" lon="87.3112573"/>
+ <node id="1471067940" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3163230" lon="87.3103643"/>
+ <node id="1471068358" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3155353" lon="87.3106250"/>
+ <node id="1471068361" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3156183" lon="87.3111317"/>
+ <node id="1471068363" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3161033" lon="87.3105164"/>
+ <node id="1471068364" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3161863" lon="87.3110231"/>
+ <node id="1471077996" visible="true" version="2" changeset="24661270" timestamp="2014-08-10T18:48:37Z" user="Mayank Suman" uid="2250271" lat="22.3186822" lon="87.3116879"/>
+ <node id="1471077997" visible="true" version="2" changeset="24661270" timestamp="2014-08-10T18:48:37Z" user="Mayank Suman" uid="2250271" lat="22.3185978" lon="87.3107599"/>
+ <node id="1471077998" visible="true" version="2" changeset="24661270" timestamp="2014-08-10T18:48:37Z" user="Mayank Suman" uid="2250271" lat="22.3188559" lon="87.3107330"/>
+ <node id="1471077999" visible="true" version="2" changeset="24661270" timestamp="2014-08-10T18:48:37Z" user="Mayank Suman" uid="2250271" lat="22.3189353" lon="87.3116557"/>
+ <node id="1471080235" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:16:45Z" user="RBEI-ArunKumar" uid="535778" lat="22.3187308" lon="87.3103835"/>
+ <node id="1471080236" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:16:45Z" user="RBEI-ArunKumar" uid="535778" lat="22.3187011" lon="87.3100938"/>
+ <node id="1471080237" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:16:45Z" user="RBEI-ArunKumar" uid="535778" lat="22.3188996" lon="87.3100294"/>
+ <node id="1471080243" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:16:45Z" user="RBEI-ArunKumar" uid="535778" lat="22.3189690" lon="87.3103513"/>
+ <node id="1471083859" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:18:55Z" user="RBEI-ArunKumar" uid="535778" lat="22.3191676" lon="87.3112632"/>
+ <node id="1471083860" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:18:55Z" user="RBEI-ArunKumar" uid="535778" lat="22.3195050" lon="87.3119821"/>
+ <node id="1471083861" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:18:55Z" user="RBEI-ArunKumar" uid="535778" lat="22.3192668" lon="87.3120143"/>
+ <node id="1471083862" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:18:55Z" user="RBEI-ArunKumar" uid="535778" lat="22.3194256" lon="87.3112418"/>
+ <node id="1471084903" visible="true" version="2" changeset="19867309" timestamp="2014-01-07T17:43:09Z" user="sa1" uid="1872247" lat="22.3199091" lon="87.3111598"/>
+ <node id="1471084905" visible="true" version="2" changeset="19867309" timestamp="2014-01-07T17:43:09Z" user="sa1" uid="1872247" lat="22.3200959" lon="87.3115180"/>
+ <node id="1471084906" visible="true" version="2" changeset="19867309" timestamp="2014-01-07T17:43:09Z" user="sa1" uid="1872247" lat="22.3199467" lon="87.3114968"/>
+ <node id="1471084908" visible="true" version="2" changeset="19867309" timestamp="2014-01-07T17:43:09Z" user="sa1" uid="1872247" lat="22.3200723" lon="87.3107742"/>
+ <node id="1471085885" visible="true" version="2" changeset="19867309" timestamp="2014-01-07T17:43:09Z" user="sa1" uid="1872247" lat="22.3199904" lon="87.3110979"/>
+ <node id="1471085887" visible="true" version="2" changeset="19867309" timestamp="2014-01-07T17:43:09Z" user="sa1" uid="1872247" lat="22.3200793" lon="87.3107690"/>
+ <node id="1471086483" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3203966" lon="87.3094469">
+  <tag k="amenity" v="library"/>
+  <tag k="name" v="Central Library"/>
+ </node>
+ <node id="1471087433" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:23:31Z" user="RBEI-ArunKumar" uid="535778" lat="22.3205670" lon="87.3098470"/>
+ <node id="1471087434" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:23:31Z" user="RBEI-ArunKumar" uid="535778" lat="22.3206662" lon="87.3108234"/>
+ <node id="1471087435" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:23:31Z" user="RBEI-ArunKumar" uid="535778" lat="22.3209540" lon="87.3098578"/>
+ <node id="1471087436" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:23:31Z" user="RBEI-ArunKumar" uid="535778" lat="22.3210533" lon="87.3108234"/>
+ <node id="1471087539" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:24:10Z" user="RBEI-ArunKumar" uid="535778" lat="22.3207754" lon="87.3121752"/>
+ <node id="1471087541" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:24:10Z" user="RBEI-ArunKumar" uid="535778" lat="22.3210434" lon="87.3112740"/>
+ <node id="1471087542" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:24:10Z" user="RBEI-ArunKumar" uid="535778" lat="22.3211228" lon="87.3121001"/>
+ <node id="1471087543" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:24:10Z" user="RBEI-ArunKumar" uid="535778" lat="22.3206662" lon="87.3113813"/>
+ <node id="1471100885" visible="true" version="5" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3174530" lon="87.3099294"/>
+ <node id="1471100887" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3202811" lon="87.3096712"/>
+ <node id="1471100888" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3187112" lon="87.3192797"/>
+ <node id="1471100893" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:29:58Z" user="RBEI-ArunKumar" uid="535778" lat="22.3209937" lon="87.3157372"/>
+ <node id="1471128672" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3194978" lon="87.3011998"/>
+ <node id="1471128674" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3198354" lon="87.3015491"/>
+ <node id="1471128676" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3198107" lon="87.3011756"/>
+ <node id="1471128678" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3195225" lon="87.3015733"/>
+ <node id="1471133829" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:52:11Z" user="RBEI-ArunKumar" uid="535778" lat="22.3205074" lon="87.2997512"/>
+ <node id="1471133830" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:52:11Z" user="RBEI-ArunKumar" uid="535778" lat="22.3201799" lon="87.2997297"/>
+ <node id="1471133831" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:52:12Z" user="RBEI-ArunKumar" uid="535778" lat="22.3202891" lon="87.3006739"/>
+ <node id="1471133838" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:52:12Z" user="RBEI-ArunKumar" uid="535778" lat="22.3205868" lon="87.3006631"/>
+ <node id="1471135056" visible="true" version="3" changeset="36711312" timestamp="2016-01-20T22:59:45Z" user="deepank" uid="1509823" lat="22.3222763" lon="87.3021681"/>
+ <node id="1471135058" visible="true" version="2" changeset="36711312" timestamp="2016-01-20T22:59:45Z" user="deepank" uid="1509823" lat="22.3219687" lon="87.3002093"/>
+ <node id="1471135060" visible="true" version="2" changeset="36711312" timestamp="2016-01-20T22:59:45Z" user="deepank" uid="1509823" lat="22.3207858" lon="87.3003538"/>
+ <node id="1471135061" visible="true" version="2" changeset="24661067" timestamp="2014-08-10T18:38:37Z" user="Mayank Suman" uid="2250271" lat="22.3210095" lon="87.3019873"/>
+ <node id="1471137964" visible="true" version="2" changeset="24659521" timestamp="2014-08-10T17:30:10Z" user="Mayank Suman" uid="2250271" lat="22.3166763" lon="87.3004378">
+  <tag k="amenity" v="hospital"/>
+  <tag k="emergency" v="yes"/>
+  <tag k="name" v="BC ROY HOSPITAL"/>
+ </node>
+ <node id="1471142178" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3183439" lon="87.3089669"/>
+ <node id="1471142179" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3187806" lon="87.3093210"/>
+ <node id="1471142180" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3188104" lon="87.3086343"/>
+ <node id="1471142181" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3183538" lon="87.3092781"/>
+ <node id="1471142182" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3183141" lon="87.3091493"/>
+ <node id="1471142183" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3186516" lon="87.3092244"/>
+ <node id="1471142184" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3188501" lon="87.3090206"/>
+ <node id="1471142186" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3185920" lon="87.3086665"/>
+ <node id="1471142188" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3189593" lon="87.3090957"/>
+ <node id="1471142190" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3184531" lon="87.3087845"/>
+ <node id="1471143149" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T20:01:22Z" user="RBEI-ArunKumar" uid="535778" lat="22.3191080" lon="87.3088498">
+  <tag k="name" v="Railway Reservation Counter"/>
+  <tag k="shop" v="kiosk"/>
+  <tag k="website" v="IIT, KHARAGPUR"/>
+ </node>
+ <node id="1471143772" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T20:02:17Z" user="RBEI-ArunKumar" uid="535778" lat="22.3193065" lon="87.3082055">
+  <tag k="amenity" v="police"/>
+  <tag k="name" v="Police Outpost"/>
+ </node>
+ <node id="1471143886" visible="true" version="2" changeset="36720661" timestamp="2016-01-21T13:57:03Z" user="Chetan_Gowda" uid="2644101" lat="22.3179019" lon="87.3071040"/>
+ <node id="1471143887" visible="true" version="2" changeset="36720661" timestamp="2016-01-21T13:57:03Z" user="Chetan_Gowda" uid="2644101" lat="22.3175497" lon="87.3070888"/>
+ <node id="1471143888" visible="true" version="2" changeset="36720661" timestamp="2016-01-21T13:57:03Z" user="Chetan_Gowda" uid="2644101" lat="22.3179220" lon="87.3065599"/>
+ <node id="1471143889" visible="true" version="2" changeset="36720661" timestamp="2016-01-21T13:57:03Z" user="Chetan_Gowda" uid="2644101" lat="22.3175699" lon="87.3065447"/>
+ <node id="2613601256" visible="true" version="1" changeset="19867309" timestamp="2014-01-07T17:43:05Z" user="sa1" uid="1872247" lat="22.3200914" lon="87.3110995"/>
+ <node id="2613601260" visible="true" version="1" changeset="19867309" timestamp="2014-01-07T17:43:05Z" user="sa1" uid="1872247" lat="22.3200599" lon="87.3111390"/>
+ <node id="2613601262" visible="true" version="1" changeset="19867309" timestamp="2014-01-07T17:43:05Z" user="sa1" uid="1872247" lat="22.3201185" lon="87.3110832"/>
+ <node id="2613601264" visible="true" version="1" changeset="19867309" timestamp="2014-01-07T17:43:05Z" user="sa1" uid="1872247" lat="22.3199964" lon="87.3111467"/>
+ <node id="2613601266" visible="true" version="1" changeset="19867309" timestamp="2014-01-07T17:43:05Z" user="sa1" uid="1872247" lat="22.3199498" lon="87.3107918"/>
+ <node id="2613601271" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3171747" lon="87.3072941"/>
+ <node id="2613601278" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3138075" lon="87.3103266"/>
+ <node id="2613601280" visible="true" version="1" changeset="19867309" timestamp="2014-01-07T17:43:05Z" user="sa1" uid="1872247" lat="22.3135267" lon="87.3064186"/>
+ <node id="2613601282" visible="true" version="1" changeset="19867309" timestamp="2014-01-07T17:43:05Z" user="sa1" uid="1872247" lat="22.3142143" lon="87.3066221"/>
+ <node id="2613601289" visible="true" version="1" changeset="19867309" timestamp="2014-01-07T17:43:05Z" user="sa1" uid="1872247" lat="22.3140363" lon="87.3065694"/>
+ <node id="2613601298" visible="true" version="1" changeset="19867309" timestamp="2014-01-07T17:43:05Z" user="sa1" uid="1872247" lat="22.3143226" lon="87.3008109"/>
+ <node id="2613601300" visible="true" version="6" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3192436" lon="87.3035389"/>
+ <node id="2613601303" visible="true" version="4" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3212815" lon="87.3031773"/>
+ <node id="2613601304" visible="true" version="3" changeset="24661067" timestamp="2014-08-10T18:38:37Z" user="Mayank Suman" uid="2250271" lat="22.3211051" lon="87.3023424"/>
+ <node id="2613601305" visible="true" version="4" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3209318" lon="87.3032712"/>
+ <node id="2613601306" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3212391" lon="87.3054477"/>
+ <node id="2613601307" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3211074" lon="87.3055802"/>
+ <node id="2613601309" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3210894" lon="87.3071450"/>
+ <node id="2613601310" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197490" lon="87.3073026"/>
+ <node id="2613601311" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3210719" lon="87.3093076"/>
+ <node id="2613601312" visible="true" version="3" changeset="24661067" timestamp="2014-08-10T18:38:37Z" user="Mayank Suman" uid="2250271" lat="22.3209208" lon="87.3020293"/>
+ <node id="2613601315" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3173136" lon="87.3007402"/>
+ <node id="2613601317" visible="true" version="1" changeset="19867309" timestamp="2014-01-07T17:43:06Z" user="sa1" uid="1872247" lat="22.3166124" lon="87.2965716"/>
+ <node id="2613601319" visible="true" version="1" changeset="19867309" timestamp="2014-01-07T17:43:06Z" user="sa1" uid="1872247" lat="22.3168100" lon="87.2963897"/>
+ <node id="2613601321" visible="true" version="1" changeset="19867309" timestamp="2014-01-07T17:43:06Z" user="sa1" uid="1872247" lat="22.3170660" lon="87.2963739"/>
+ <node id="2613601323" visible="true" version="1" changeset="19867309" timestamp="2014-01-07T17:43:06Z" user="sa1" uid="1872247" lat="22.3174465" lon="87.2970540"/>
+ <node id="2613601324" visible="true" version="1" changeset="19867309" timestamp="2014-01-07T17:43:06Z" user="sa1" uid="1872247" lat="22.3175489" lon="87.2978528"/>
+ <node id="2613601325" visible="true" version="1" changeset="19867309" timestamp="2014-01-07T17:43:06Z" user="sa1" uid="1872247" lat="22.3169356" lon="87.2987858"/>
+ <node id="2613601327" visible="true" version="1" changeset="19867309" timestamp="2014-01-07T17:43:06Z" user="sa1" uid="1872247" lat="22.3158881" lon="87.3040136">
+  <tag k="name" v="Technology Guest House"/>
+  <tag k="operator" v="IIT Kharagpur"/>
+  <tag k="tourism" v="guest_house"/>
+ </node>
+ <node id="2613601343" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3209690" lon="87.3090989"/>
+ <node id="2613601344" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3200071" lon="87.3086357"/>
+ <node id="2613601345" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3199091" lon="87.3073862"/>
+ <node id="2613601346" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3209918" lon="87.3073071"/>
+ <node id="2613601359" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3186872" lon="87.3012248"/>
+ <node id="2613601360" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3190705" lon="87.3003018"/>
+ <node id="2613601361" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3196635" lon="87.2998029"/>
+ <node id="2613601362" visible="true" version="4" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3193409" lon="87.2984939"/>
+ <node id="2613601363" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3189687" lon="87.2986441"/>
+ <node id="2613601368" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3180249" lon="87.3141949"/>
+ <node id="2614487336" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3173063" lon="87.3009063"/>
+ <node id="2614492886" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3181708" lon="87.3022164"/>
+ <node id="2614492887" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3172732" lon="87.3023021"/>
+ <node id="2614492888" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3174397" lon="87.3032133"/>
+ <node id="2614492889" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3179157" lon="87.3034047"/>
+ <node id="2614492890" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3182496" lon="87.3030637"/>
+ <node id="2614492893" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3162484" lon="87.3009672"/>
+ <node id="2614492894" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3167202" lon="87.3012593"/>
+ <node id="2614492895" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3106491" lon="87.3106878"/>
+ <node id="2614492897" visible="true" version="4" changeset="54675153" timestamp="2017-12-16T09:38:44Z" user="ரவி சங்கர்" uid="3214079" lat="22.3088320" lon="87.3046841"/>
+ <node id="2614495595" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3131320" lon="87.3103836"/>
+ <node id="2614495596" visible="true" version="1" changeset="19877855" timestamp="2014-01-08T08:47:00Z" user="sa1" uid="1872247" lat="22.3128647" lon="87.3062227"/>
+ <node id="2614495597" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3118738" lon="87.3104866"/>
+ <node id="2614495599" visible="true" version="1" changeset="19877855" timestamp="2014-01-08T08:47:00Z" user="sa1" uid="1872247" lat="22.3119394" lon="87.3059489"/>
+ <node id="2614495600" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3111791" lon="87.3105517"/>
+ <node id="2614503546" visible="true" version="4" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3194788" lon="87.3095945"/>
+ <node id="2614503548" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3180978" lon="87.3098414"/>
+ <node id="2614503550" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3183951" lon="87.3119544"/>
+ <node id="2614503552" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3205432" lon="87.3116040"/>
+ <node id="2614503554" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3186896" lon="87.3140472"/>
+ <node id="2614503560" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3208120" lon="87.3136019"/>
+ <node id="2614503562" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3196950" lon="87.3117314"/>
+ <node id="2614503564" visible="true" version="1" changeset="19878083" timestamp="2014-01-08T08:57:31Z" user="sa1" uid="1872247" lat="22.3196923" lon="87.3110146"/>
+ <node id="2614503566" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3190819" lon="87.3118275"/>
+ <node id="2614503568" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3191322" lon="87.3108174"/>
+ <node id="2614507394" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3177372" lon="87.3037121"/>
+ <node id="2614507396" visible="true" version="1" changeset="19878197" timestamp="2014-01-08T09:05:35Z" user="sa1" uid="1872247" lat="22.3166393" lon="87.3044634"/>
+ <node id="2614507398" visible="true" version="1" changeset="19878197" timestamp="2014-01-08T09:05:35Z" user="sa1" uid="1872247" lat="22.3123180" lon="87.3060609"/>
+ <node id="2614562974" visible="true" version="1" changeset="19879315" timestamp="2014-01-08T10:23:26Z" user="sa1" uid="1872247" lat="22.3192370" lon="87.3064458">
+  <tag k="amenity" v="restaurant"/>
+  <tag k="name" v="Heritage"/>
+ </node>
+ <node id="2614562977" visible="true" version="1" changeset="19879315" timestamp="2014-01-08T10:23:26Z" user="sa1" uid="1872247" lat="22.3194027" lon="87.3064035">
+  <tag k="amenity" v="cafe"/>
+  <tag k="name" v="Cafe Coffee Day"/>
+ </node>
+ <node id="2614562979" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3201744" lon="87.3015936"/>
+ <node id="2614562980" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3201943" lon="87.3022695"/>
+ <node id="2614562981" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3199813" lon="87.3027283"/>
+ <node id="2614562982" visible="true" version="4" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3200819" lon="87.3032888"/>
+ <node id="2614562983" visible="true" version="4" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3211077" lon="87.3031329"/>
+ <node id="2614562984" visible="true" version="4" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3210578" lon="87.3021380"/>
+ <node id="2614562985" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3209337" lon="87.3019584"/>
+ <node id="2614562986" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3207947" lon="87.3014541"/>
+ <node id="2614562987" visible="true" version="1" changeset="19879315" timestamp="2014-01-08T10:23:26Z" user="sa1" uid="1872247" lat="22.3201193" lon="87.3018091"/>
+ <node id="2614562988" visible="true" version="2" changeset="36711312" timestamp="2016-01-20T22:59:45Z" user="deepank" uid="1509823" lat="22.3190833" lon="87.3019199"/>
+ <node id="2614562989" visible="true" version="3" changeset="36711312" timestamp="2016-01-20T22:59:45Z" user="deepank" uid="1509823" lat="22.3192531" lon="87.3028306"/>
+ <node id="2614562990" visible="true" version="2" changeset="24660199" timestamp="2014-08-10T18:01:48Z" user="Mayank Suman" uid="2250271" lat="22.3200456" lon="87.3026482"/>
+ <node id="2614562992" visible="true" version="5" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3209459" lon="87.3041855"/>
+ <node id="2614562994" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3210785" lon="87.3055186"/>
+ <node id="2614562995" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3196175" lon="87.3055209"/>
+ <node id="2614562997" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3194891" lon="87.3048346"/>
+ <node id="2614562999" visible="true" version="4" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3202263" lon="87.3047005"/>
+ <node id="2614563001" visible="true" version="4" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3201866" lon="87.3043196"/>
+ <node id="2614563003" visible="true" version="1" changeset="19879315" timestamp="2014-01-08T10:23:26Z" user="sa1" uid="1872247" lat="22.3202781" lon="87.3050492">
+  <tag k="amenity" v="restaurant"/>
+  <tag k="name" v="VS Canteen"/>
+ </node>
+ <node id="2614563006" visible="true" version="1" changeset="19879315" timestamp="2014-01-08T10:23:26Z" user="sa1" uid="1872247" lat="22.3206624" lon="87.3007849"/>
+ <node id="2614563008" visible="true" version="1" changeset="19879315" timestamp="2014-01-08T10:23:26Z" user="sa1" uid="1872247" lat="22.3205929" lon="87.2995458"/>
+ <node id="2614563009" visible="true" version="1" changeset="19879315" timestamp="2014-01-08T10:23:26Z" user="sa1" uid="1872247" lat="22.3195210" lon="87.2994170"/>
+ <node id="2614563011" visible="true" version="1" changeset="19879315" timestamp="2014-01-08T10:23:26Z" user="sa1" uid="1872247" lat="22.3196253" lon="87.3008547"/>
+ <node id="2614563039" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3204648" lon="87.3070574"/>
+ <node id="2614563041" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3203705" lon="87.3061079"/>
+ <node id="2614563043" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197998" lon="87.3062635"/>
+ <node id="2614563045" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3198842" lon="87.3071111"/>
+ <node id="2614563047" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3210404" lon="87.3070253"/>
+ <node id="2614563049" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3209263" lon="87.3057485"/>
+ <node id="2614563051" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3203407" lon="87.3057110"/>
+ <node id="2614563053" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3205194" lon="87.3070199"/>
+ <node id="2614945499" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3160531" lon="87.3009258"/>
+ <node id="2614945501" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3158864" lon="87.2997457"/>
+ <node id="2614945502" visible="true" version="1" changeset="19885984" timestamp="2014-01-08T17:07:42Z" user="sa1" uid="1872247" lat="22.3159891" lon="87.2989144"/>
+ <node id="2615001783" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3162355" lon="87.3111567"/>
+ <node id="2615001784" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3163686" lon="87.3120712"/>
+ <node id="2615001785" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3157986" lon="87.3121682"/>
+ <node id="2615001786" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3156654" lon="87.3112537"/>
+ <node id="2615001806" visible="true" version="2" changeset="36488656" timestamp="2016-01-10T18:29:35Z" user="deepank" uid="1509823" lat="22.3168452" lon="87.3013637"/>
+ <node id="2615001807" visible="true" version="3" changeset="36488656" timestamp="2016-01-10T18:29:35Z" user="deepank" uid="1509823" lat="22.3182574" lon="87.3010652"/>
+ <node id="2615001811" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3177212" lon="87.3036439"/>
+ <node id="2615001812" visible="true" version="2" changeset="36711312" timestamp="2016-01-20T22:59:45Z" user="deepank" uid="1509823" lat="22.3167019" lon="87.3043478"/>
+ <node id="2615001814" visible="true" version="2" changeset="36711312" timestamp="2016-01-20T22:59:45Z" user="deepank" uid="1509823" lat="22.3166289" lon="87.3038649"/>
+ <node id="2615001816" visible="true" version="4" changeset="36711312" timestamp="2016-01-20T22:59:45Z" user="deepank" uid="1509823" lat="22.3166004" lon="87.3036630"/>
+ <node id="2615001818" visible="true" version="4" changeset="36711312" timestamp="2016-01-20T22:59:45Z" user="deepank" uid="1509823" lat="22.3165761" lon="87.3035334"/>
+ <node id="2615001820" visible="true" version="4" changeset="36711312" timestamp="2016-01-20T22:59:45Z" user="deepank" uid="1509823" lat="22.3165140" lon="87.3030949"/>
+ <node id="2615001823" visible="true" version="1" changeset="19886458" timestamp="2014-01-08T17:36:44Z" user="sa1" uid="1872247" lat="22.3164144" lon="87.3022246"/>
+ <node id="2615001824" visible="true" version="1" changeset="19886458" timestamp="2014-01-08T17:36:44Z" user="sa1" uid="1872247" lat="22.3168258" lon="87.3005169">
+  <tag k="amenity" v="pharmacy"/>
+  <tag k="name" v="Frank Ross Pharmacy"/>
+  <tag k="operator" v="Frank Ross"/>
+ </node>
+ <node id="3009072922" visible="true" version="1" changeset="24660179" timestamp="2014-08-10T17:52:21Z" user="Mayank Suman" uid="2250271" lat="22.3165519" lon="87.3049708"/>
+ <node id="3009072923" visible="true" version="1" changeset="24660179" timestamp="2014-08-10T17:52:21Z" user="Mayank Suman" uid="2250271" lat="22.3166813" lon="87.3058802"/>
+ <node id="3009072924" visible="true" version="1" changeset="24660179" timestamp="2014-08-10T17:52:21Z" user="Mayank Suman" uid="2250271" lat="22.3165357" lon="87.3058919"/>
+ <node id="3009072925" visible="true" version="1" changeset="24660179" timestamp="2014-08-10T17:52:21Z" user="Mayank Suman" uid="2250271" lat="22.3164063" lon="87.3049970"/>
+ <node id="3009072926" visible="true" version="1" changeset="24660179" timestamp="2014-08-10T17:52:21Z" user="Mayank Suman" uid="2250271" lat="22.3164952" lon="87.3049796"/>
+ <node id="3009091166" visible="true" version="4" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3209508" lon="87.3041533"/>
+ <node id="3009091167" visible="true" version="5" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3200427" lon="87.3034666"/>
+ <node id="3009091168" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3208615" lon="87.3033272"/>
+ <node id="3009091169" visible="true" version="5" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3201717" lon="87.3042874"/>
+ <node id="3009096241" visible="true" version="2" changeset="24660803" timestamp="2014-08-10T18:25:23Z" user="Mayank Suman" uid="2250271" lat="22.3193356" lon="87.3034022"/>
+ <node id="3009096242" visible="true" version="2" changeset="24660803" timestamp="2014-08-10T18:25:23Z" user="Mayank Suman" uid="2250271" lat="22.3199319" lon="87.3032717"/>
+ <node id="3009096243" visible="true" version="1" changeset="24660199" timestamp="2014-08-10T18:01:48Z" user="Mayank Suman" uid="2250271" lat="22.3198674" lon="87.3027490"/>
+ <node id="3009096244" visible="true" version="1" changeset="24660199" timestamp="2014-08-10T18:01:48Z" user="Mayank Suman" uid="2250271" lat="22.3192669" lon="87.3028617"/>
+ <node id="3009104477" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3195645" lon="87.3056499"/>
+ <node id="3009144527" visible="true" version="2" changeset="36711312" timestamp="2016-01-20T22:59:45Z" user="deepank" uid="1509823" lat="22.3212697" lon="87.3023129"/>
+ <node id="3009151954" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3190982" lon="87.3047884"/>
+ <node id="3009151955" visible="true" version="5" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3172391" lon="87.3048466"/>
+ <node id="3009163262" visible="true" version="3" changeset="36488656" timestamp="2016-01-10T18:29:35Z" user="deepank" uid="1509823" lat="22.3185797" lon="87.3070717"/>
+ <node id="3009163263" visible="true" version="3" changeset="36488656" timestamp="2016-01-10T18:29:35Z" user="deepank" uid="1509823" lat="22.3184870" lon="87.3069062"/>
+ <node id="3009167929" visible="true" version="2" changeset="24661325" timestamp="2014-08-10T18:51:39Z" user="Mayank Suman" uid="2250271" lat="22.3191546" lon="87.3087652">
+  <tag k="amenity" v="restaurant"/>
+  <tag k="name" v="IIT Staff Canteen"/>
+ </node>
+ <node id="3437297157" visible="true" version="2" changeset="49388331" timestamp="2017-06-09T07:24:26Z" user="Mayank Suman" uid="2250271" lat="22.3187708" lon="87.3032377">
+  <tag k="amenity" v="bank"/>
+  <tag k="atm" v="yes"/>
+  <tag k="name" v="Axis Bank ATM"/>
+  <tag k="operator" v="Axis Bank"/>
+ </node>
+ <node id="3437297233" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3207282" lon="87.3004980"/>
+ <node id="3437297234" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3189856" lon="87.3005719"/>
+ <node id="3437297235" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3191424" lon="87.2985530"/>
+ <node id="3437297236" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3195512" lon="87.3006404"/>
+ <node id="3437299269" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3184083" lon="87.3030102"/>
+ <node id="3437299270" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3183184" lon="87.3022336"/>
+ <node id="3437299271" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3182594" lon="87.3017948"/>
+ <node id="3437299272" visible="true" version="4" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3181625" lon="87.3017094"/>
+ <node id="3437299273" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3174088" lon="87.3016811"/>
+ <node id="3437299274" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3172886" lon="87.3017457"/>
+ <node id="3437299275" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3172207" lon="87.3018486"/>
+ <node id="3437299276" visible="true" version="4" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3171830" lon="87.3021854"/>
+ <node id="3437299277" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3172993" lon="87.3031781"/>
+ <node id="3437299278" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3173822" lon="87.3033132"/>
+ <node id="3437299279" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151" lat="22.3175168" lon="87.3034339"/>
+ <node id="3437299280" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3177015" lon="87.3035406"/>
+ <node id="3437299281" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3179182" lon="87.3035396"/>
+ <node id="3437299282" visible="true" version="4" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3181599" lon="87.3034604"/>
+ <node id="3437299283" visible="true" version="4" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3182868" lon="87.3033011"/>
+ <node id="3437301445" visible="true" version="3" changeset="36711312" timestamp="2016-01-20T22:59:45Z" user="deepank" uid="1509823" lat="22.3186768" lon="87.3014564"/>
+ <node id="3437301446" visible="true" version="3" changeset="36711312" timestamp="2016-01-20T22:59:45Z" user="deepank" uid="1509823" lat="22.3189208" lon="87.3022279"/>
+ <node id="3437303885" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3172435" lon="87.3046320"/>
+ <node id="3437303886" visible="true" version="4" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3175168" lon="87.3055469"/>
+ <node id="3437303887" visible="true" version="4" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3183619" lon="87.3056199"/>
+ <node id="3437303888" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3182906" lon="87.3039239"/>
+ <node id="3437303889" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3188166" lon="87.3040849"/>
+ <node id="3437303890" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3190746" lon="87.3045301"/>
+ <node id="3437303891" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3189059" lon="87.3053348"/>
+ <node id="3437303892" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:27Z" user="ரவி சங்கர்" uid="3214079" lat="22.3182333" lon="87.3084965"/>
+ <node id="3437318417" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:26Z" user="ரவி சங்கர்" uid="3214079" lat="22.3099570" lon="87.3108647"/>
+ <node id="3437318418" visible="true" version="1" changeset="29973092" timestamp="2015-04-04T14:15:45Z" user="Mayank Suman" uid="2250271" lat="22.3096829" lon="87.3092727"/>
+ <node id="3437318419" visible="true" version="1" changeset="29973092" timestamp="2015-04-04T14:15:45Z" user="Mayank Suman" uid="2250271" lat="22.3096730" lon="87.3074166"/>
+ <node id="3437318420" visible="true" version="2" changeset="54675153" timestamp="2017-12-16T09:38:44Z" user="ரவி சங்கர்" uid="3214079" lat="22.3097414" lon="87.3049860"/>
+ <node id="3706090370" visible="true" version="1" changeset="33455233" timestamp="2015-08-20T06:19:48Z" user="Joy Ghosh" uid="1919586" lat="22.3164977" lon="87.3058664"/>
+ <node id="3706090371" visible="true" version="1" changeset="33455233" timestamp="2015-08-20T06:19:48Z" user="Joy Ghosh" uid="1919586" lat="22.3166069" lon="87.3064270"/>
+ <node id="3706090372" visible="true" version="1" changeset="33455233" timestamp="2015-08-20T06:19:48Z" user="Joy Ghosh" uid="1919586" lat="22.3164530" lon="87.3064887"/>
+ <node id="3706090373" visible="true" version="1" changeset="33455233" timestamp="2015-08-20T06:19:48Z" user="Joy Ghosh" uid="1919586" lat="22.3164307" lon="87.3063841"/>
+ <node id="3706090374" visible="true" version="1" changeset="33455233" timestamp="2015-08-20T06:19:48Z" user="Joy Ghosh" uid="1919586" lat="22.3162247" lon="87.3064082"/>
+ <node id="3706090375" visible="true" version="1" changeset="33455233" timestamp="2015-08-20T06:19:48Z" user="Joy Ghosh" uid="1919586" lat="22.3161528" lon="87.3059522"/>
+ <node id="3938017772" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3172697" lon="87.3050847"/>
+ <node id="3938017773" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3174274" lon="87.3042424"/>
+ <node id="3938017774" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3178727" lon="87.3039816"/>
+ <node id="3938017775" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3178819" lon="87.3056713"/>
+ <node id="3938017776" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3180257" lon="87.3056563"/>
+ <node id="3938017778" visible="true" version="2" changeset="36488656" timestamp="2016-01-10T18:29:35Z" user="deepank" uid="1509823" lat="22.3189786" lon="87.3064951"/>
+ <node id="3938017779" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3190832" lon="87.3050195"/>
+ <node id="3938045733" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3171993" lon="87.3024113"/>
+ <node id="3938045734" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3171969" lon="87.3019961"/>
+ <node id="3938045735" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3172081" lon="87.3026453"/>
+ <node id="3938045737" visible="true" version="2" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3172266" lon="87.3028349"/>
+ <node id="3938045738" visible="true" version="1" changeset="36488656" timestamp="2016-01-10T18:29:33Z" user="deepank" uid="1509823" lat="22.3172412" lon="87.3011265"/>
+ <node id="3938045739" visible="true" version="2" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3173405" lon="87.3028281"/>
+ <node id="3938045740" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3174605" lon="87.3047896"/>
+ <node id="3938045741" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3174686" lon="87.3047390"/>
+ <node id="3938045742" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3174686" lon="87.3048644"/>
+ <node id="3938045743" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3174779" lon="87.3049496"/>
+ <node id="3938045744" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3174964" lon="87.3046488"/>
+ <node id="3938045745" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3175243" lon="87.3050499"/>
+ <node id="3938045746" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3175428" lon="87.3045886"/>
+ <node id="3938045747" visible="true" version="2" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3176047" lon="87.3033553"/>
+ <node id="3938045748" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3175846" lon="87.3051251"/>
+ <node id="3938045749" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3176170" lon="87.3045335"/>
+ <node id="3938045751" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3176356" lon="87.3051702"/>
+ <node id="3938045752" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3176959" lon="87.3044783"/>
+ <node id="3938045753" visible="true" version="1" changeset="36488656" timestamp="2016-01-10T18:29:33Z" user="deepank" uid="1509823" lat="22.3176873" lon="87.3009918"/>
+ <node id="3938045754" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3177052" lon="87.3052053"/>
+ <node id="3938045755" visible="true" version="2" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3177580" lon="87.3033896"/>
+ <node id="3938045756" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3178072" lon="87.3052254"/>
+ <node id="3938047459" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3178768" lon="87.3052254"/>
+ <node id="3938047461" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3179324" lon="87.3052254"/>
+ <node id="3938047464" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3179238" lon="87.3016998"/>
+ <node id="3938047465" visible="true" version="2" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3181244" lon="87.3032894"/>
+ <node id="3938047467" visible="true" version="2" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3182171" lon="87.3026676"/>
+ <node id="3938047469" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3183916" lon="87.3051753"/>
+ <node id="3938047473" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3185042" lon="87.3039401"/>
+ <node id="3938047474" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3185632" lon="87.3043881"/>
+ <node id="3938047475" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3185772" lon="87.3051351"/>
+ <node id="3938047476" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3186746" lon="87.3044382"/>
+ <node id="3938047477" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3187024" lon="87.3050649"/>
+ <node id="3938047479" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3187302" lon="87.3044833"/>
+ <node id="3938047481" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3187903" lon="87.3049516"/>
+ <node id="3938047482" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3187952" lon="87.3045485"/>
+ <node id="3938047483" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3188258" lon="87.3046560"/>
+ <node id="3938047484" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3188369" lon="87.3047541"/>
+ <node id="3938047485" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151" lat="22.3188369" lon="87.3048644"/>
+ <node id="3938047486" visible="true" version="2" changeset="36711312" timestamp="2016-01-20T22:59:45Z" user="deepank" uid="1509823" lat="22.3188359" lon="87.3018425"/>
+ <node id="3938047487" visible="true" version="2" changeset="36711312" timestamp="2016-01-20T22:59:45Z" user="deepank" uid="1509823" lat="22.3189659" lon="87.3026154"/>
+ <node id="3938047488" visible="true" version="2" changeset="36711312" timestamp="2016-01-20T22:59:45Z" user="deepank" uid="1509823" lat="22.3190290" lon="87.3031366"/>
+ <node id="3957444118" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:37Z" user="deepank" uid="1509823" lat="22.3163670" lon="87.3022401"/>
+ <node id="3957444119" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:37Z" user="deepank" uid="1509823" lat="22.3164098" lon="87.3024831"/>
+ <node id="3957444120" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:37Z" user="deepank" uid="1509823" lat="22.3164277" lon="87.3019741"/>
+ <node id="3957444121" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:37Z" user="deepank" uid="1509823" lat="22.3164384" lon="87.3026643"/>
+ <node id="3957444122" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:37Z" user="deepank" uid="1509823" lat="22.3164669" lon="87.3020203"/>
+ <node id="3957444123" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:37Z" user="deepank" uid="1509823" lat="22.3165169" lon="87.3017813"/>
+ <node id="3957444124" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:37Z" user="deepank" uid="1509823" lat="22.3165383" lon="87.3033044"/>
+ <node id="3957444125" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:37Z" user="deepank" uid="1509823" lat="22.3165525" lon="87.3018083"/>
+ <node id="3957444126" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3168318" lon="87.3011092"/>
+ <node id="3957444127" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:37Z" user="deepank" uid="1509823" lat="22.3166952" lon="87.3015615"/>
+ <node id="3957444128" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3170600" lon="87.3010150"/>
+ <node id="3957444129" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:37Z" user="deepank" uid="1509823" lat="22.3170341" lon="87.3012222"/>
+ <node id="3957444138" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:37Z" user="deepank" uid="1509823" lat="22.3174408" lon="87.3010563"/>
+ <node id="3957444139" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3175449" lon="87.3008338"/>
+ <node id="3957444147" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3179194" lon="87.3007875"/>
+ <node id="3957444148" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3181698" lon="87.3008487"/>
+ <node id="3957444151" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:38Z" user="deepank" uid="1509823" lat="22.3180151" lon="87.3010101"/>
+ <node id="3957444559" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:38Z" user="deepank" uid="1509823" lat="22.3181633" lon="87.3069098"/>
+ <node id="3957444590" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:38Z" user="deepank" uid="1509823" lat="22.3185002" lon="87.3012376"/>
+ <node id="3957444594" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3184951" lon="87.3010579"/>
+ <node id="3957444599" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:38Z" user="deepank" uid="1509823" lat="22.3186251" lon="87.3013918"/>
+ <node id="3957444609" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:38Z" user="deepank" uid="1509823" lat="22.3187321" lon="87.3015730"/>
+ <node id="3957444612" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:38Z" user="deepank" uid="1509823" lat="22.3187713" lon="87.3016733"/>
+ <node id="3957444615" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079" lat="22.3188525" lon="87.3015374"/>
+ <node id="3957444624" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3189497" lon="87.3024638"/>
+ <node id="3957444627" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3189704" lon="87.3070077"/>
+ <node id="3957444628" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3190394" lon="87.3021770"/>
+ <node id="3957444629" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3189960" lon="87.3028841"/>
+ <node id="3957444632" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3190674" lon="87.3034509"/>
+ <node id="3957444634" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3191783" lon="87.3023899"/>
+ <node id="3957444635" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3192386" lon="87.3023558"/>
+ <node id="3957444636" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3192743" lon="87.3022826"/>
+ <node id="3957444637" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3192779" lon="87.3023674"/>
+ <node id="3957444638" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3192814" lon="87.3026180"/>
+ <node id="3957444639" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3193171" lon="87.3022941"/>
+ <node id="3957444640" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3193171" lon="87.3026026"/>
+ <node id="3957444641" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3193314" lon="87.3026913"/>
+ <node id="3957444642" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3193599" lon="87.3026604"/>
+ <node id="3957444643" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3194598" lon="87.3021206"/>
+ <node id="3957444644" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3194598" lon="87.3021630"/>
+ <node id="3957444645" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3195407" lon="87.3027644"/>
+ <node id="3957444647" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3195846" lon="87.3020975"/>
+ <node id="3957444648" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3196623" lon="87.3027364"/>
+ <node id="3957444649" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3197487" lon="87.3021669"/>
+ <node id="3957444650" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3197487" lon="87.3022093"/>
+ <node id="3957444651" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3197630" lon="87.3023018"/>
+ <node id="3957444652" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3197951" lon="87.3025101"/>
+ <node id="3957444653" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3197951" lon="87.3025910"/>
+ <node id="3957444654" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3198058" lon="87.3023057"/>
+ <node id="3957444655" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3198272" lon="87.3022363"/>
+ <node id="3957444656" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3198522" lon="87.3026065"/>
+ <node id="3957444657" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3198736" lon="87.3025486"/>
+ <node id="3957444658" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3208781" lon="87.3006844"/>
+ <node id="3957444659" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3209459" lon="87.3011664"/>
+ <node id="3957444661" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3210065" lon="87.3006690"/>
+ <node id="3957444662" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3210315" lon="87.3004800"/>
+ <node id="3957444663" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3210351" lon="87.3008734"/>
+ <node id="3957444664" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3210351" lon="87.3010237"/>
+ <node id="3957444665" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3210493" lon="87.3011471"/>
+ <node id="3957444667" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3210527" lon="87.3020414"/>
+ <node id="3957444668" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3210529" lon="87.3006304"/>
+ <node id="3957444674" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3211992" lon="87.3006189"/>
+ <node id="3957444678" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:39Z" user="deepank" uid="1509823" lat="22.3212206" lon="87.3008541"/>
+ <node id="3957444686" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:40Z" user="deepank" uid="1509823" lat="22.3213204" lon="87.3006112"/>
+ <node id="3957444690" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:40Z" user="deepank" uid="1509823" lat="22.3213525" lon="87.3009775"/>
+ <node id="3957444703" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:40Z" user="deepank" uid="1509823" lat="22.3214560" lon="87.3004338"/>
+ <node id="3957444707" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:40Z" user="deepank" uid="1509823" lat="22.3214703" lon="87.3005919"/>
+ <node id="3957444773" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:41Z" user="deepank" uid="1509823" lat="22.3221547" lon="87.3014951"/>
+ <node id="3957448604" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3198801" lon="87.3065764"/>
+ <node id="3957448605" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3198931" lon="87.3067231"/>
+ <node id="3957448606" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3199049" lon="87.3064625"/>
+ <node id="3957448607" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3199049" lon="87.3065666"/>
+ <node id="3957448608" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3199099" lon="87.3067228"/>
+ <node id="3957448609" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3199571" lon="87.3071044"/>
+ <node id="3957448610" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3199976" lon="87.3064471"/>
+ <node id="3957448611" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3200262" lon="87.3065512"/>
+ <node id="3957448612" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3199133" lon="87.3068308"/>
+ <node id="3957448613" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3199454" lon="87.3070274"/>
+ <node id="3957448614" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3202259" lon="87.3062505"/>
+ <node id="3957448615" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3202545" lon="87.3065242"/>
+ <node id="3957448616" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3201345" lon="87.3067961"/>
+ <node id="3957448617" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3201594" lon="87.3069850"/>
+ <node id="3957448618" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3203222" lon="87.3062389"/>
+ <node id="3957448619" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3204293" lon="87.3070607"/>
+ <node id="3958144957" visible="true" version="1" changeset="36720661" timestamp="2016-01-21T13:57:02Z" user="Chetan_Gowda" uid="2644101" lat="22.3173890" lon="87.3064005"/>
+ <node id="3958144958" visible="true" version="1" changeset="36720661" timestamp="2016-01-21T13:57:02Z" user="Chetan_Gowda" uid="2644101" lat="22.3173943" lon="87.3063630"/>
+ <node id="3958144959" visible="true" version="1" changeset="36720661" timestamp="2016-01-21T13:57:02Z" user="Chetan_Gowda" uid="2644101" lat="22.3174887" lon="87.3057670"/>
+ <node id="3958144960" visible="true" version="1" changeset="36720661" timestamp="2016-01-21T13:57:02Z" user="Chetan_Gowda" uid="2644101" lat="22.3175089" lon="87.3056239"/>
+ <node id="3958144961" visible="true" version="1" changeset="36720661" timestamp="2016-01-21T13:57:02Z" user="Chetan_Gowda" uid="2644101" lat="22.3175757" lon="87.3064313"/>
+ <node id="3958144962" visible="true" version="1" changeset="36720661" timestamp="2016-01-21T13:57:02Z" user="Chetan_Gowda" uid="2644101" lat="22.3175810" lon="87.3063939"/>
+ <node id="3958144965" visible="true" version="1" changeset="36720661" timestamp="2016-01-21T13:57:02Z" user="Chetan_Gowda" uid="2644101" lat="22.3176422" lon="87.3057923"/>
+ <node id="3958144966" visible="true" version="1" changeset="36720661" timestamp="2016-01-21T13:57:02Z" user="Chetan_Gowda" uid="2644101" lat="22.3176624" lon="87.3056493"/>
+ <node id="3958144969" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:28Z" user="ரவி சங்கர்" uid="3214079" lat="22.3181805" lon="87.3036587"/>
+ <node id="4860997668" visible="true" version="1" changeset="48778752" timestamp="2017-05-18T04:40:02Z" user="Soumabha" uid="5993597" lat="22.3165009" lon="87.3030201"/>
+ <node id="4860997669" visible="true" version="1" changeset="48778752" timestamp="2017-05-18T04:40:02Z" user="Soumabha" uid="5993597" lat="22.3164776" lon="87.3028877"/>
+ <node id="4860997670" visible="true" version="1" changeset="48778752" timestamp="2017-05-18T04:40:02Z" user="Soumabha" uid="5993597" lat="22.3164541" lon="87.3027540"/>
+ <node id="5297589408" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3108367" lon="87.3106396"/>
+ <node id="5297589410" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3125090" lon="87.3104462"/>
+ <node id="5297589411" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3158553" lon="87.3100963"/>
+ <node id="5297589416" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197761" lon="87.3096475"/>
+ <node id="5297589430" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:24Z" user="ரவி சங்கர்" uid="3214079" lat="22.3196973" lon="87.3086692"/>
+ <node id="5297589431" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3201045" lon="87.3096853"/>
+ <node id="5297589432" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3199245" lon="87.3096741"/>
+ <node id="5297589433" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3171484" lon="87.3071293"/>
+ <node id="5297589434" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3170708" lon="87.3071614"/>
+ <node id="5297589435" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3172191" lon="87.3072195"/>
+ <node id="5297589436" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3172176" lon="87.3072022"/>
+ <node id="5297589437" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3172083" lon="87.3071820"/>
+ <node id="5297589438" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3170695" lon="87.3072166"/>
+ <node id="5297589439" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3170764" lon="87.3072373"/>
+ <node id="5297589440" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3171935" lon="87.3071556"/>
+ <node id="5297589441" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3171715" lon="87.3071384"/>
+ <node id="5297589442" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3171220" lon="87.3071263"/>
+ <node id="5297589443" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3171031" lon="87.3071299"/>
+ <node id="5297589444" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3170668" lon="87.3071908"/>
+ <node id="5297589445" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3170895" lon="87.3072590"/>
+ <node id="5297589446" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3171063" lon="87.3072768"/>
+ <node id="5297589447" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3171263" lon="87.3072870"/>
+ <node id="5297589448" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3171499" lon="87.3072935"/>
+ <node id="5297589449" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3171960" lon="87.3072804"/>
+ <node id="5297589450" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3172102" lon="87.3072579"/>
+ <node id="5297589451" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3172182" lon="87.3072396"/>
+ <node id="5297589452" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:18Z" user="ரவி சங்கர்" uid="3214079" lat="22.3170844" lon="87.3071416"/>
+ <node id="5297628015" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197678" lon="87.3087677"/>
+ <node id="5297628016" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3196073" lon="87.3091882"/>
+ <node id="5297628017" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3196124" lon="87.3090331"/>
+ <node id="5297628018" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3196350" lon="87.3094201"/>
+ <node id="5297628019" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197866" lon="87.3095923"/>
+ <node id="5297628020" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197806" lon="87.3095400"/>
+ <node id="5297629621" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197597" lon="87.3094924"/>
+ <node id="5297629622" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3195084" lon="87.3094881"/>
+ <node id="5297629623" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3194851" lon="87.3095386"/>
+ <node id="5297629624" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3194900" lon="87.3096495"/>
+ <node id="5297629625" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197260" lon="87.3094542"/>
+ <node id="5297629626" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3196831" lon="87.3094293"/>
+ <node id="5297629627" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3195868" lon="87.3094276"/>
+ <node id="5297629628" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3195431" lon="87.3094511"/>
+ <node id="5297629629" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3195176" lon="87.3096974"/>
+ <node id="5297629630" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3195583" lon="87.3097325"/>
+ <node id="5297629631" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3196076" lon="87.3097510"/>
+ <node id="5297629632" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3196597" lon="87.3097506"/>
+ <node id="5297629633" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197088" lon="87.3097314"/>
+ <node id="5297629634" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197491" lon="87.3096957"/>
+ <node id="5297629635" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3203813" lon="87.3056059"/>
+ <node id="5297629636" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3202147" lon="87.3056533"/>
+ <node id="5297629637" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3198697" lon="87.3087097"/>
+ <node id="5297629638" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3198761" lon="87.3086803"/>
+ <node id="5297629639" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197039" lon="87.3086364"/>
+ <node id="5297629640" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3198738" lon="87.3086501"/>
+ <node id="5297629641" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3198630" lon="87.3086221"/>
+ <node id="5297629642" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3198208" lon="87.3085835"/>
+ <node id="5297629643" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197935" lon="87.3085765"/>
+ <node id="5297629644" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197656" lon="87.3085790"/>
+ <node id="5297629645" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197397" lon="87.3085907"/>
+ <node id="5297629646" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197185" lon="87.3086105"/>
+ <node id="5297629647" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197015" lon="87.3087026"/>
+ <node id="5297629648" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197160" lon="87.3087323"/>
+ <node id="5297629649" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197390" lon="87.3087549"/>
+ <node id="5297629650" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3197989" lon="87.3087690"/>
+ <node id="5297629651" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3198285" lon="87.3087587"/>
+ <node id="5297629652" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3198531" lon="87.3087382"/>
+ <node id="5297629653" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3183710" lon="87.3031797"/>
+ <node id="5297629654" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079" lat="22.3182180" lon="87.3017470"/>
+ <node id="5413697903" visible="true" version="1" changeset="56374246" timestamp="2018-02-15T06:27:28Z" user="MeenuFrancis" uid="7621255" lat="22.3124503" lon="87.3104499"/>
+ <node id="5413709082" visible="true" version="1" changeset="56374422" timestamp="2018-02-15T06:37:25Z" user="MeenuFrancis" uid="7621255" lat="22.3181172" lon="87.3148787"/>
+ <node id="6129977632" visible="true" version="3" changeset="87472389" timestamp="2020-07-02T23:24:34Z" user="BRexedh5sW3Zuq6" uid="10451593" lat="22.3194763" lon="87.3004383">
+  <tag k="building" v="storage_tank"/>
+  <tag k="content" v="water"/>
+  <tag k="man_made" v="storage_tank"/>
+ </node>
+ <node id="7127613422" visible="true" version="1" changeset="79497843" timestamp="2020-01-13T05:38:01Z" user="Mahendra Mithi" uid="10604193" lat="22.3160786" lon="87.2986732"/>
+ <node id="7127613425" visible="true" version="1" changeset="79497843" timestamp="2020-01-13T05:38:01Z" user="Mahendra Mithi" uid="10604193" lat="22.3168823" lon="87.2984206"/>
+ <way id="133649070" visible="true" version="7" changeset="48779256" timestamp="2017-05-18T05:20:08Z" user="ridixcr" uid="2508151">
+  <nd ref="1471006540"/>
+  <nd ref="3437303891"/>
+  <nd ref="1471006560"/>
+  <nd ref="3938017779"/>
+  <nd ref="3009151954"/>
+  <nd ref="3437303890"/>
+  <nd ref="1471006559"/>
+  <nd ref="3437303889"/>
+  <nd ref="1471006543"/>
+  <nd ref="3938047473"/>
+  <nd ref="3437303888"/>
+  <nd ref="3938017774"/>
+  <nd ref="1471006548"/>
+  <nd ref="3938017773"/>
+  <nd ref="1471006562"/>
+  <nd ref="3437303885"/>
+  <nd ref="3009151955"/>
+  <nd ref="3938017772"/>
+  <nd ref="1471006545"/>
+  <nd ref="3437303886"/>
+  <nd ref="1471006550"/>
+  <nd ref="3938017775"/>
+  <nd ref="3938017776"/>
+  <nd ref="3437303887"/>
+  <nd ref="1471006540"/>
+ </way>
+ <way id="133649385" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T18:22:51Z" user="RBEI-ArunKumar" uid="535778">
+  <nd ref="1471010184"/>
+  <nd ref="1471010187"/>
+  <nd ref="1471010186"/>
+  <nd ref="1471010185"/>
+  <nd ref="1471010184"/>
+  <tag k="leisure" v="recreation_ground"/>
+  <tag k="name" v="TATA Sports Complex"/>
+ </way>
+ <way id="133651417" visible="true" version="6" changeset="54816078" timestamp="2017-12-21T14:15:26Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="1471025073"/>
+  <nd ref="1471025056"/>
+  <nd ref="1471025057"/>
+  <nd ref="1471025054"/>
+  <nd ref="1471025073"/>
+  <tag k="covered" v="no"/>
+  <tag k="leisure" v="swimming_pool"/>
+  <tag k="name" v="Gymkhana Swimming pool"/>
+  <tag k="sport" v="swimming"/>
+ </way>
+ <way id="133654053" visible="true" version="13" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="1471040640"/>
+  <nd ref="2613601310"/>
+  <nd ref="3009104477"/>
+  <nd ref="2613601300"/>
+  <nd ref="1471040636"/>
+  <nd ref="3957444628"/>
+  <nd ref="1471040653"/>
+  <nd ref="3957444615"/>
+  <nd ref="1471040647"/>
+  <nd ref="2613601359"/>
+  <nd ref="3957444594"/>
+  <nd ref="1471040642"/>
+  <nd ref="3957444148"/>
+  <nd ref="3957444147"/>
+  <nd ref="1471040644"/>
+  <nd ref="3957444139"/>
+  <nd ref="2614487336"/>
+  <nd ref="3957444128"/>
+  <nd ref="3957444126"/>
+  <nd ref="2614492894"/>
+  <nd ref="3957444123"/>
+  <nd ref="3957444120"/>
+  <nd ref="3957444118"/>
+  <nd ref="1471040638"/>
+  <nd ref="2614507396"/>
+  <nd ref="5297589433"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="name" v="Scholars' Avenue"/>
+ </way>
+ <way id="133654121" visible="true" version="7" changeset="36720661" timestamp="2016-01-21T13:57:03Z" user="Chetan_Gowda" uid="2644101">
+  <nd ref="1471043724"/>
+  <nd ref="1471043734"/>
+  <nd ref="1471043744"/>
+  <nd ref="1471043736"/>
+  <nd ref="3958144962"/>
+  <nd ref="3958144961"/>
+  <nd ref="3958144957"/>
+  <nd ref="3958144958"/>
+  <nd ref="1471043731"/>
+  <nd ref="1471043742"/>
+  <nd ref="1471043747"/>
+  <nd ref="1471043739"/>
+  <nd ref="3958144959"/>
+  <nd ref="3958144960"/>
+  <nd ref="3958144966"/>
+  <nd ref="3958144965"/>
+  <nd ref="1471043724"/>
+ </way>
+ <way id="133654399" visible="true" version="4" changeset="36711312" timestamp="2016-01-20T22:59:44Z" user="deepank" uid="1509823">
+  <nd ref="1471049317"/>
+  <nd ref="1471049316"/>
+  <nd ref="3938017778"/>
+  <nd ref="1471049314"/>
+  <nd ref="3957444627"/>
+  <nd ref="3009163262"/>
+  <nd ref="3009163263"/>
+  <nd ref="3957444559"/>
+  <nd ref="1471049320"/>
+  <nd ref="1471049317"/>
+  <tag k="landuse" v="residential"/>
+  <tag k="name" v="Police Quarters"/>
+ </way>
+ <way id="133654536" visible="true" version="3" changeset="29972930" timestamp="2015-04-04T14:05:37Z" user="Mayank Suman" uid="2250271">
+  <nd ref="1471053430"/>
+  <nd ref="1471053421"/>
+  <nd ref="3437303892"/>
+  <nd ref="1471053428"/>
+  <nd ref="1471053430"/>
+  <tag k="leisure" v="park"/>
+  <tag k="name" v="Jubilee Park"/>
+ </way>
+ <way id="133654694" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:33Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="1471054757"/>
+  <nd ref="1471054755"/>
+  <nd ref="1471054746"/>
+  <nd ref="1471054748"/>
+  <nd ref="1471054757"/>
+  <tag k="amenity" v="college"/>
+  <tag k="name" v="DEPT OF COMPUTER SCIENCE AND ENGINEERING"/>
+ </way>
+ <way id="133655270" visible="true" version="4" changeset="24659521" timestamp="2014-08-10T17:40:22Z" user="Mayank Suman" uid="2250271">
+  <nd ref="1471055912"/>
+  <nd ref="1471055915"/>
+  <nd ref="1471055919"/>
+  <nd ref="1471055916"/>
+  <nd ref="1471055917"/>
+  <nd ref="1471055918"/>
+  <nd ref="1471055913"/>
+  <nd ref="1471055914"/>
+  <nd ref="1471055912"/>
+  <tag k="addr:street" v="IIT, KHARAGPUR"/>
+  <tag k="amenity" v="college"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="DEPT OF ARCHITECTURE AND PLANNING"/>
+ </way>
+ <way id="133656196" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:33Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="1471067938"/>
+  <nd ref="1471067939"/>
+  <nd ref="1471067937"/>
+  <nd ref="1471067940"/>
+  <nd ref="1471067938"/>
+  <tag k="addr:street" v="IIT, KHARAGPUR"/>
+  <tag k="building" v="university"/>
+  <tag k="name" v="VIKRAMSHILA SCHOOL OF MEDICAL SCIENCE AND TECHNOLOGY"/>
+ </way>
+ <way id="133656227" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:33Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="1471068363"/>
+  <nd ref="1471068364"/>
+  <nd ref="1471068361"/>
+  <nd ref="1471068358"/>
+  <nd ref="1471068363"/>
+  <tag k="addr:street" v="IIT, KHARAGPUR"/>
+  <tag k="building" v="university"/>
+  <tag k="name" v="LECTURE HALLS"/>
+ </way>
+ <way id="133657027" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:34Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="1471077996"/>
+  <nd ref="1471077999"/>
+  <nd ref="1471077998"/>
+  <nd ref="1471077997"/>
+  <nd ref="1471077996"/>
+  <tag k="addr:postcode" v="721302"/>
+  <tag k="addr:street" v="IIT, KHARAGPUR"/>
+  <tag k="building" v="university"/>
+  <tag k="name" v="DEPT OF HUMANITIES AND SOCIAL SCIENCES"/>
+ </way>
+ <way id="133657120" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:16:45Z" user="RBEI-ArunKumar" uid="535778">
+  <nd ref="1471080243"/>
+  <nd ref="1471080235"/>
+  <nd ref="1471080236"/>
+  <nd ref="1471080237"/>
+  <nd ref="1471080243"/>
+  <tag k="addr:street" v="IIT, KHARAGPUR"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="Netaji Auditorium"/>
+ </way>
+ <way id="133657279" visible="true" version="2" changeset="9584622" timestamp="2011-10-17T19:19:48Z" user="RBEI-ArunKumar" uid="535778">
+  <nd ref="1471083861"/>
+  <nd ref="1471083859"/>
+  <nd ref="1471083862"/>
+  <nd ref="1471083860"/>
+  <nd ref="1471083861"/>
+  <tag k="addr:street" v="IIT, KHARAGPUR"/>
+  <tag k="amenity" v="college"/>
+  <tag k="name" v="DEPT OF CHEMISTRY"/>
+ </way>
+ <way id="133657344" visible="true" version="2" changeset="19867309" timestamp="2014-01-07T17:43:10Z" user="sa1" uid="1872247">
+  <nd ref="1471084906"/>
+  <nd ref="1471084905"/>
+  <nd ref="2613601260"/>
+  <nd ref="2613601262"/>
+  <nd ref="1471084908"/>
+  <nd ref="2613601266"/>
+  <nd ref="2613601264"/>
+  <nd ref="1471084903"/>
+  <nd ref="1471084906"/>
+  <tag k="addr:street" v="IIT, KHARAGPUR"/>
+  <tag k="amenity" v="college"/>
+  <tag k="name" v="DEPT OF ELECTRICAL ENGINEERING"/>
+ </way>
+ <way id="133657385" visible="true" version="2" changeset="19867309" timestamp="2014-01-07T17:43:10Z" user="sa1" uid="1872247">
+  <nd ref="1471085885"/>
+  <nd ref="2613601264"/>
+  <nd ref="1471084903"/>
+  <nd ref="1471084906"/>
+  <nd ref="1471084905"/>
+  <nd ref="2613601260"/>
+  <nd ref="2613601256"/>
+  <nd ref="2613601262"/>
+  <nd ref="1471084908"/>
+  <nd ref="1471085887"/>
+  <nd ref="2613601266"/>
+  <nd ref="1471085885"/>
+  <tag k="addr:street" v="IIT, KHARAGPUR"/>
+  <tag k="amenity" v="college"/>
+  <tag k="name" v="DEPT OF MATHEMATICS"/>
+ </way>
+ <way id="133658068" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:35Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="1471087434"/>
+  <nd ref="1471087436"/>
+  <nd ref="1471087435"/>
+  <nd ref="1471087433"/>
+  <nd ref="1471087434"/>
+  <tag k="addr:street" v="IIT, KHARAGPUR"/>
+  <tag k="building" v="university"/>
+  <tag k="name" v="DEPT OF ELECTRONICS AND ELECTRICAL COMMUNICATION ENGINEERING"/>
+ </way>
+ <way id="133658081" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:24:10Z" user="RBEI-ArunKumar" uid="535778">
+  <nd ref="1471087543"/>
+  <nd ref="1471087539"/>
+  <nd ref="1471087542"/>
+  <nd ref="1471087541"/>
+  <nd ref="1471087543"/>
+  <tag k="addr:street" v="IIT, KHARAGPUR"/>
+  <tag k="amenity" v="college"/>
+  <tag k="name" v="DEPT OF MINING ENGINEERING"/>
+ </way>
+ <way id="133658527" visible="true" version="4" changeset="54815468" timestamp="2017-12-21T13:48:33Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="1471100893"/>
+  <nd ref="2614503560"/>
+  <nd ref="2614503552"/>
+  <nd ref="1471100887"/>
+  <nd ref="5297589431"/>
+  <nd ref="5297589432"/>
+  <nd ref="5297589416"/>
+  <tag k="highway" v="unclassified"/>
+ </way>
+ <way id="133658528" visible="true" version="6" changeset="56374422" timestamp="2018-02-15T06:37:26Z" user="MeenuFrancis" uid="7621255">
+  <nd ref="2613601271"/>
+  <nd ref="1471100885"/>
+  <nd ref="2613601368"/>
+  <nd ref="5413709082"/>
+  <nd ref="1471100888"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="name" v="Aroeshir Dalal Avenue"/>
+ </way>
+ <way id="133659527" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:47:53Z" user="RBEI-ArunKumar" uid="535778">
+  <nd ref="1471128678"/>
+  <nd ref="1471128674"/>
+  <nd ref="1471128676"/>
+  <nd ref="1471128672"/>
+  <nd ref="1471128678"/>
+  <tag k="leisure" v="pitch"/>
+  <tag k="name" v="Tennis Court"/>
+  <tag k="sport" v="tennis"/>
+ </way>
+ <way id="133659848" visible="true" version="1" changeset="9584622" timestamp="2011-10-17T19:52:12Z" user="RBEI-ArunKumar" uid="535778">
+  <nd ref="1471133831"/>
+  <nd ref="1471133838"/>
+  <nd ref="1471133829"/>
+  <nd ref="1471133830"/>
+  <nd ref="1471133831"/>
+  <tag k="leisure" v="pitch"/>
+  <tag k="name" v="Half Basket Ball Court"/>
+  <tag k="sport" v="basketball"/>
+ </way>
+ <way id="133659957" visible="true" version="4" changeset="36711312" timestamp="2016-01-20T22:59:44Z" user="deepank" uid="1509823">
+  <nd ref="1471135061"/>
+  <nd ref="3957444667"/>
+  <nd ref="3009144527"/>
+  <nd ref="1471135056"/>
+  <nd ref="3957444773"/>
+  <nd ref="1471135058"/>
+  <nd ref="1471135060"/>
+  <nd ref="1471135061"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="Madan Mohan Malviya Hall"/>
+  <tag k="tourism" v="hostel"/>
+ </way>
+ <way id="133660432" visible="true" version="2" changeset="19867309" timestamp="2014-01-07T17:43:11Z" user="sa1" uid="1872247">
+  <nd ref="1471142179"/>
+  <nd ref="1471142188"/>
+  <nd ref="1471142184"/>
+  <nd ref="1471142180"/>
+  <nd ref="1471142186"/>
+  <nd ref="1471142190"/>
+  <nd ref="1471142178"/>
+  <nd ref="1471142182"/>
+  <nd ref="1471142181"/>
+  <nd ref="1471142183"/>
+  <nd ref="1471142179"/>
+  <tag k="amenity" v="theatre"/>
+  <tag k="name" v="Tagore Open Air Theatre"/>
+ </way>
+ <way id="133660607" visible="true" version="3" changeset="36720661" timestamp="2016-01-21T13:57:03Z" user="Chetan_Gowda" uid="2644101">
+  <nd ref="1471143886"/>
+  <nd ref="1471143887"/>
+  <nd ref="1471143889"/>
+  <nd ref="1471143888"/>
+  <nd ref="1471143886"/>
+ </way>
+ <way id="255690855" visible="true" version="8" changeset="54815468" timestamp="2017-12-21T13:48:31Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="5297589434"/>
+  <nd ref="2613601282"/>
+  <nd ref="2613601289"/>
+  <nd ref="2613601280"/>
+  <nd ref="2614495596"/>
+  <nd ref="2614507398"/>
+  <nd ref="2614495599"/>
+  <nd ref="3437318420"/>
+  <nd ref="2614492897"/>
+  <tag k="highway" v="tertiary"/>
+ </way>
+ <way id="255690862" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:26Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="2613601300"/>
+  <nd ref="2613601305"/>
+  <nd ref="2613601303"/>
+  <nd ref="2613601304"/>
+  <tag k="highway" v="unclassified"/>
+ </way>
+ <way id="255690865" visible="true" version="4" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="2613601305"/>
+  <nd ref="2613601306"/>
+  <nd ref="2613601307"/>
+  <nd ref="5297629635"/>
+  <nd ref="5297629636"/>
+  <nd ref="3009104477"/>
+  <tag k="highway" v="unclassified"/>
+ </way>
+ <way id="255690866" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:26Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="2613601307"/>
+  <nd ref="2613601309"/>
+  <nd ref="2613601310"/>
+  <tag k="highway" v="unclassified"/>
+ </way>
+ <way id="255690870" visible="true" version="4" changeset="54815468" timestamp="2017-12-21T13:48:35Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="3437297233"/>
+  <nd ref="2613601312"/>
+  <nd ref="2613601304"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="255690872" visible="true" version="3" changeset="79497843" timestamp="2020-01-13T05:38:01Z" user="Mahendra Mithi" uid="10604193">
+  <nd ref="2614487336"/>
+  <nd ref="2613601315"/>
+  <nd ref="2613601325"/>
+  <nd ref="7127613425"/>
+  <nd ref="2613601317"/>
+  <nd ref="2613601319"/>
+  <nd ref="2613601321"/>
+  <nd ref="2613601323"/>
+  <nd ref="2613601324"/>
+  <nd ref="2613601325"/>
+  <tag k="highway" v="tertiary"/>
+ </way>
+ <way id="255690886" visible="true" version="1" changeset="19867309" timestamp="2014-01-07T17:43:08Z" user="sa1" uid="1872247">
+  <nd ref="2613601343"/>
+  <nd ref="2613601344"/>
+  <nd ref="2613601345"/>
+  <nd ref="2613601346"/>
+  <nd ref="2613601343"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="Bidhan Chandra Roy Hall of Residence"/>
+  <tag k="tourism" v="hostel"/>
+ </way>
+ <way id="255690895" visible="true" version="3" changeset="29972703" timestamp="2015-04-04T13:55:18Z" user="Mayank Suman" uid="2250271">
+  <nd ref="2613601359"/>
+  <nd ref="3437297234"/>
+  <nd ref="2613601360"/>
+  <nd ref="2613601361"/>
+  <nd ref="2613601362"/>
+  <nd ref="3437297235"/>
+  <nd ref="2613601363"/>
+  <nd ref="2613601360"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="name" v="PAN Loop"/>
+ </way>
+ <way id="255760163" visible="true" version="4" changeset="54816078" timestamp="2017-12-21T14:15:26Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="2614492886"/>
+  <nd ref="2614492887"/>
+  <nd ref="3938045739"/>
+  <nd ref="2614492888"/>
+  <nd ref="3938045747"/>
+  <nd ref="3938045755"/>
+  <nd ref="2614492889"/>
+  <nd ref="3938047465"/>
+  <nd ref="2614492890"/>
+  <nd ref="3938047467"/>
+  <nd ref="2614492886"/>
+  <tag k="landuse" v="forest"/>
+  <tag k="place" v="islet"/>
+ </way>
+ <way id="255760164" visible="true" version="2" changeset="19885984" timestamp="2014-01-08T17:07:42Z" user="sa1" uid="1872247">
+  <nd ref="2613601298"/>
+  <nd ref="2614945499"/>
+  <nd ref="2614492893"/>
+  <nd ref="2614492894"/>
+  <tag k="highway" v="tertiary"/>
+ </way>
+ <way id="255761649" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:33Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="2614503548"/>
+  <nd ref="2614503550"/>
+  <nd ref="2614503554"/>
+  <tag k="highway" v="tertiary"/>
+ </way>
+ <way id="255761653" visible="true" version="1" changeset="19878083" timestamp="2014-01-08T08:57:32Z" user="sa1" uid="1872247">
+  <nd ref="2614503562"/>
+  <nd ref="2614503564"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="255761654" visible="true" version="1" changeset="19878083" timestamp="2014-01-08T08:57:32Z" user="sa1" uid="1872247">
+  <nd ref="2614503566"/>
+  <nd ref="2614503568"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="255761991" visible="true" version="2" changeset="36720661" timestamp="2016-01-21T13:57:03Z" user="Chetan_Gowda" uid="2644101">
+  <nd ref="2613601300"/>
+  <nd ref="3958144969"/>
+  <nd ref="2614507394"/>
+  <nd ref="2614507396"/>
+  <tag k="highway" v="unclassified"/>
+ </way>
+ <way id="255768799" visible="true" version="1" changeset="19879315" timestamp="2014-01-08T10:23:27Z" user="sa1" uid="1872247">
+  <nd ref="2614562979"/>
+  <nd ref="2614562980"/>
+  <nd ref="2614562981"/>
+  <nd ref="2614562982"/>
+  <nd ref="2614562983"/>
+  <nd ref="2614562984"/>
+  <nd ref="2614562985"/>
+  <nd ref="2614562986"/>
+  <nd ref="2614562979"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="JCB Hall  of Residence"/>
+  <tag k="tourism" v="hostel"/>
+ </way>
+ <way id="255768801" visible="true" version="2" changeset="36711312" timestamp="2016-01-20T22:59:43Z" user="deepank" uid="1509823">
+  <nd ref="2614562987"/>
+  <nd ref="2614562988"/>
+  <nd ref="3957444634"/>
+  <nd ref="2614562989"/>
+  <nd ref="3957444645"/>
+  <nd ref="3957444648"/>
+  <nd ref="2614562990"/>
+  <nd ref="2614562987"/>
+  <tag k="building" v="no"/>
+  <tag k="name" v="HJB Hall of Residence"/>
+  <tag k="tourism" v="hostel"/>
+ </way>
+ <way id="255768802" visible="true" version="1" changeset="19879315" timestamp="2014-01-08T10:23:27Z" user="sa1" uid="1872247">
+  <nd ref="2614562992"/>
+  <nd ref="2614562994"/>
+  <nd ref="2614562995"/>
+  <nd ref="2614562997"/>
+  <nd ref="2614562999"/>
+  <nd ref="2614563001"/>
+  <nd ref="2614562992"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="VS Hall of Residence"/>
+  <tag k="tourism" v="hostel"/>
+ </way>
+ <way id="255768804" visible="true" version="1" changeset="19879315" timestamp="2014-01-08T10:23:27Z" user="sa1" uid="1872247">
+  <nd ref="2614563006"/>
+  <nd ref="2614563008"/>
+  <nd ref="2614563009"/>
+  <nd ref="2614563011"/>
+  <nd ref="2614563006"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="Patel Hall of Residence"/>
+  <tag k="tourism" v="hostel"/>
+ </way>
+ <way id="255768813" visible="true" version="2" changeset="36711382" timestamp="2016-01-20T23:05:08Z" user="deepank" uid="1509823">
+  <nd ref="2614563039"/>
+  <nd ref="2614563041"/>
+  <nd ref="2614563043"/>
+  <nd ref="2614563045"/>
+  <nd ref="3957448609"/>
+  <nd ref="3957448619"/>
+  <nd ref="2614563039"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="SAM"/>
+  <tag k="tourism" v="hostel"/>
+ </way>
+ <way id="255768815" visible="true" version="1" changeset="19879315" timestamp="2014-01-08T10:23:27Z" user="sa1" uid="1872247">
+  <nd ref="2614563047"/>
+  <nd ref="2614563049"/>
+  <nd ref="2614563051"/>
+  <nd ref="2614563053"/>
+  <nd ref="2614563047"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="Gokhale"/>
+  <tag k="tourism" v="hostel"/>
+ </way>
+ <way id="255805244" visible="true" version="2" changeset="79497843" timestamp="2020-01-13T05:38:01Z" user="Mahendra Mithi" uid="10604193">
+  <nd ref="2614945499"/>
+  <nd ref="2614945501"/>
+  <nd ref="2614945502"/>
+  <nd ref="7127613422"/>
+  <tag k="highway" v="unclassified"/>
+ </way>
+ <way id="255807443" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:34Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="2615001783"/>
+  <nd ref="2615001784"/>
+  <nd ref="2615001785"/>
+  <nd ref="2615001786"/>
+  <nd ref="2615001783"/>
+  <tag k="building" v="university"/>
+  <tag k="name" v="JC Bose Lab"/>
+ </way>
+ <way id="255807446" visible="true" version="6" changeset="54816078" timestamp="2017-12-21T14:15:26Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="2615001806"/>
+  <nd ref="3957444129"/>
+  <nd ref="3938045738"/>
+  <nd ref="3957444138"/>
+  <nd ref="3938045753"/>
+  <nd ref="3957444151"/>
+  <nd ref="2615001807"/>
+  <nd ref="3957444590"/>
+  <nd ref="3957444599"/>
+  <nd ref="3437301445"/>
+  <nd ref="3957444609"/>
+  <nd ref="3957444612"/>
+  <nd ref="3938047486"/>
+  <nd ref="3437301446"/>
+  <nd ref="3957444624"/>
+  <nd ref="3938047487"/>
+  <nd ref="3957444629"/>
+  <nd ref="3938047488"/>
+  <nd ref="3957444632"/>
+  <nd ref="2615001811"/>
+  <nd ref="2615001812"/>
+  <nd ref="2615001814"/>
+  <nd ref="2615001816"/>
+  <nd ref="2615001818"/>
+  <nd ref="3957444124"/>
+  <nd ref="2615001820"/>
+  <nd ref="4860997668"/>
+  <nd ref="4860997669"/>
+  <nd ref="4860997670"/>
+  <nd ref="3957444121"/>
+  <nd ref="3957444119"/>
+  <nd ref="2615001823"/>
+  <nd ref="3957444122"/>
+  <nd ref="3957444125"/>
+  <nd ref="3957444127"/>
+  <nd ref="2615001806"/>
+  <tag k="leisure" v="park"/>
+ </way>
+ <way id="297066020" visible="true" version="3" changeset="29972939" timestamp="2015-04-04T14:06:16Z" user="Mayank Suman" uid="2250271">
+  <nd ref="3009072922"/>
+  <nd ref="3009072923"/>
+  <nd ref="3009072924"/>
+  <nd ref="3009072925"/>
+  <nd ref="3009072926"/>
+  <nd ref="3009072922"/>
+  <tag k="designation" v="Girls' Hostel"/>
+  <tag k="name" v="Sister Nivedita Hall of Residence"/>
+  <tag k="tourism" v="hostel"/>
+ </way>
+ <way id="297068696" visible="true" version="1" changeset="24660199" timestamp="2014-08-10T17:58:09Z" user="Mayank Suman" uid="2250271">
+  <nd ref="3009091166"/>
+  <nd ref="3009091168"/>
+  <nd ref="3009091167"/>
+  <nd ref="3009091169"/>
+  <nd ref="3009091166"/>
+  <tag k="leisure" v="playground"/>
+ </way>
+ <way id="297069619" visible="true" version="2" changeset="24660803" timestamp="2014-08-10T18:25:24Z" user="Mayank Suman" uid="2250271">
+  <nd ref="3009096243"/>
+  <nd ref="3009096242"/>
+  <nd ref="3009096241"/>
+  <nd ref="3009096244"/>
+  <nd ref="3009096243"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="Counselling Centre"/>
+ </way>
+ <way id="336674190" visible="true" version="1" changeset="29972703" timestamp="2015-04-04T13:55:18Z" user="Mayank Suman" uid="2250271">
+  <nd ref="3437297234"/>
+  <nd ref="3437297236"/>
+  <nd ref="3437297233"/>
+  <tag k="highway" v="residential"/>
+ </way>
+ <way id="336674383" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:26Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="3437299269"/>
+  <nd ref="3437299270"/>
+  <nd ref="3437299271"/>
+  <nd ref="5297629654"/>
+  <nd ref="3437299272"/>
+  <nd ref="3938047464"/>
+  <nd ref="3437299273"/>
+  <nd ref="3437299274"/>
+  <nd ref="3437299275"/>
+  <nd ref="3938045734"/>
+  <nd ref="3437299276"/>
+  <nd ref="3938045733"/>
+  <nd ref="3938045735"/>
+  <nd ref="3938045737"/>
+  <nd ref="3437299277"/>
+  <nd ref="3437299278"/>
+  <nd ref="3437299279"/>
+  <nd ref="3437299280"/>
+  <nd ref="3437299281"/>
+  <nd ref="3437299282"/>
+  <nd ref="3437299283"/>
+  <nd ref="5297629653"/>
+  <nd ref="3437299269"/>
+  <tag k="highway" v="footway"/>
+ </way>
+ <way id="336675922" visible="true" version="4" changeset="56374246" timestamp="2018-02-15T06:27:29Z" user="MeenuFrancis" uid="7621255">
+  <nd ref="1471100885"/>
+  <nd ref="5297589411"/>
+  <nd ref="2613601278"/>
+  <nd ref="2614495595"/>
+  <nd ref="5297589410"/>
+  <nd ref="5413697903"/>
+  <nd ref="2614495597"/>
+  <nd ref="2614495600"/>
+  <nd ref="5297589408"/>
+  <nd ref="2614492895"/>
+  <nd ref="3437318417"/>
+  <nd ref="3437318418"/>
+  <nd ref="3437318419"/>
+  <nd ref="3437318420"/>
+  <tag k="highway" v="tertiary"/>
+ </way>
+ <way id="366616118" visible="true" version="2" changeset="33455279" timestamp="2015-08-20T06:24:12Z" user="Joy Ghosh" uid="1919586">
+  <nd ref="3706090370"/>
+  <nd ref="3706090371"/>
+  <nd ref="3706090372"/>
+  <nd ref="3706090373"/>
+  <nd ref="3706090374"/>
+  <nd ref="3706090375"/>
+  <nd ref="3706090370"/>
+  <tag k="amenity" v="school"/>
+  <tag k="name" v="Kendriya Vidyalaya -IIT"/>
+ </way>
+ <way id="390642204" visible="true" version="3" changeset="54816078" timestamp="2017-12-21T14:15:26Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="3437299275"/>
+  <nd ref="3437299274"/>
+  <nd ref="3437299273"/>
+  <nd ref="3938047464"/>
+  <nd ref="3437299272"/>
+  <nd ref="5297629654"/>
+  <nd ref="3437299271"/>
+  <nd ref="3437299270"/>
+  <nd ref="3437299269"/>
+  <nd ref="5297629653"/>
+  <nd ref="3437299283"/>
+  <nd ref="3437299282"/>
+  <nd ref="3437299281"/>
+  <nd ref="3437299280"/>
+  <nd ref="3437299279"/>
+  <nd ref="3437299278"/>
+  <nd ref="3437299277"/>
+  <nd ref="3938045737"/>
+  <nd ref="3938045735"/>
+  <nd ref="3938045733"/>
+  <nd ref="3437299276"/>
+  <nd ref="3938045734"/>
+  <nd ref="3437299275"/>
+ </way>
+ <way id="390642205" visible="true" version="3" changeset="48779256" timestamp="2017-05-18T05:20:09Z" user="ridixcr" uid="2508151">
+  <nd ref="3938045752"/>
+  <nd ref="3938047474"/>
+  <nd ref="3938047476"/>
+  <nd ref="3938047479"/>
+  <nd ref="3938047482"/>
+  <nd ref="3938047483"/>
+  <nd ref="3938047484"/>
+  <nd ref="3938047485"/>
+  <nd ref="3938047481"/>
+  <nd ref="3938047477"/>
+  <nd ref="3938047475"/>
+  <nd ref="3938047469"/>
+  <nd ref="3938047461"/>
+  <nd ref="3938047459"/>
+  <nd ref="3938045756"/>
+  <nd ref="3938045754"/>
+  <nd ref="3938045751"/>
+  <nd ref="3938045748"/>
+  <nd ref="3938045745"/>
+  <nd ref="3938045743"/>
+  <nd ref="3938045742"/>
+  <nd ref="3938045740"/>
+  <nd ref="3938045741"/>
+  <nd ref="3938045744"/>
+  <nd ref="3938045746"/>
+  <nd ref="3938045749"/>
+  <nd ref="3938045752"/>
+  <tag k="leisure" v="pitch"/>
+  <tag k="sport" v="field_hockey"/>
+ </way>
+ <way id="392527061" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:42Z" user="deepank" uid="1509823">
+  <nd ref="3957444703"/>
+  <nd ref="3957444662"/>
+  <nd ref="3957444668"/>
+  <nd ref="3957444674"/>
+  <nd ref="3957444678"/>
+  <nd ref="3957444663"/>
+  <nd ref="3957444661"/>
+  <nd ref="3957444658"/>
+  <nd ref="3957444659"/>
+  <nd ref="3957444665"/>
+  <nd ref="3957444664"/>
+  <nd ref="3957444690"/>
+  <nd ref="3957444686"/>
+  <nd ref="3957444707"/>
+  <nd ref="3957444703"/>
+ </way>
+ <way id="392527086" visible="true" version="1" changeset="36711312" timestamp="2016-01-20T22:59:43Z" user="deepank" uid="1509823">
+  <nd ref="3957444649"/>
+  <nd ref="3957444647"/>
+  <nd ref="3957444643"/>
+  <nd ref="3957444644"/>
+  <nd ref="3957444639"/>
+  <nd ref="3957444636"/>
+  <nd ref="3957444635"/>
+  <nd ref="3957444637"/>
+  <nd ref="3957444640"/>
+  <nd ref="3957444638"/>
+  <nd ref="3957444641"/>
+  <nd ref="3957444642"/>
+  <nd ref="3957444645"/>
+  <nd ref="3957444648"/>
+  <nd ref="3957444653"/>
+  <nd ref="3957444656"/>
+  <nd ref="3957444657"/>
+  <nd ref="3957444652"/>
+  <nd ref="3957444651"/>
+  <nd ref="3957444654"/>
+  <nd ref="3957444655"/>
+  <nd ref="3957444650"/>
+  <nd ref="3957444649"/>
+  <tag k="building" v="university"/>
+ </way>
+ <way id="392527735" visible="true" version="1" changeset="36711382" timestamp="2016-01-20T23:05:08Z" user="deepank" uid="1509823">
+  <nd ref="3957448618"/>
+  <nd ref="3957448614"/>
+  <nd ref="3957448615"/>
+  <nd ref="3957448611"/>
+  <nd ref="3957448610"/>
+  <nd ref="3957448606"/>
+  <nd ref="3957448607"/>
+  <nd ref="3957448604"/>
+  <nd ref="3957448605"/>
+  <nd ref="3957448608"/>
+  <nd ref="3957448609"/>
+  <nd ref="3957448619"/>
+  <nd ref="3957448618"/>
+ </way>
+ <way id="392527740" visible="true" version="1" changeset="36711382" timestamp="2016-01-20T23:05:08Z" user="deepank" uid="1509823">
+  <nd ref="3957448616"/>
+  <nd ref="3957448612"/>
+  <nd ref="3957448613"/>
+  <nd ref="3957448617"/>
+  <nd ref="3957448616"/>
+ </way>
+ <way id="548361630" visible="true" version="1" changeset="54815468" timestamp="2017-12-21T13:48:20Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="2614503546"/>
+  <nd ref="2614503548"/>
+  <nd ref="1471100885"/>
+  <tag k="highway" v="unclassified"/>
+ </way>
+ <way id="548361634" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="5297628015"/>
+  <nd ref="5297628017"/>
+  <nd ref="5297628016"/>
+  <nd ref="5297628018"/>
+  <tag k="highway" v="unclassified"/>
+ </way>
+ <way id="548361636" visible="true" version="2" changeset="54816078" timestamp="2017-12-21T14:15:25Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="5297589430"/>
+  <nd ref="5297589435"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="name" v="IIT Main Road"/>
+ </way>
+ <way id="548361638" visible="true" version="2" changeset="89638299" timestamp="2020-08-19T13:47:52Z" user="Heinz_V" uid="91490">
+  <nd ref="5297589445"/>
+  <nd ref="5297589439"/>
+  <nd ref="5297589438"/>
+  <nd ref="5297589444"/>
+  <nd ref="5297589434"/>
+  <nd ref="5297589452"/>
+  <nd ref="5297589443"/>
+  <nd ref="5297589442"/>
+  <nd ref="5297589433"/>
+  <nd ref="5297589441"/>
+  <nd ref="5297589440"/>
+  <nd ref="5297589437"/>
+  <nd ref="5297589436"/>
+  <nd ref="5297589435"/>
+  <nd ref="5297589451"/>
+  <nd ref="5297589450"/>
+  <nd ref="5297589449"/>
+  <nd ref="2613601271"/>
+  <nd ref="5297589448"/>
+  <nd ref="5297589447"/>
+  <nd ref="5297589446"/>
+  <nd ref="5297589445"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="junction" v="roundabout"/>
+ </way>
+ <way id="548365383" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="5297629629"/>
+  <nd ref="5297629630"/>
+  <nd ref="5297629631"/>
+  <nd ref="5297629632"/>
+  <nd ref="5297629633"/>
+  <nd ref="5297629634"/>
+  <nd ref="5297589416"/>
+  <nd ref="5297628019"/>
+  <nd ref="5297628020"/>
+  <nd ref="5297629621"/>
+  <nd ref="5297629625"/>
+  <nd ref="5297629626"/>
+  <nd ref="5297628018"/>
+  <nd ref="5297629627"/>
+  <nd ref="5297629628"/>
+  <nd ref="5297629622"/>
+  <nd ref="5297629623"/>
+  <nd ref="2614503546"/>
+  <nd ref="5297629624"/>
+  <nd ref="5297629629"/>
+  <tag k="highway" v="unclassified"/>
+ </way>
+ <way id="548365384" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="5297629647"/>
+  <nd ref="5297629648"/>
+  <nd ref="5297629649"/>
+  <nd ref="5297628015"/>
+  <nd ref="5297629650"/>
+  <nd ref="5297629651"/>
+  <nd ref="5297629652"/>
+  <nd ref="5297629637"/>
+  <nd ref="5297629638"/>
+  <nd ref="5297629640"/>
+  <nd ref="5297629641"/>
+  <nd ref="1471040640"/>
+  <nd ref="5297629642"/>
+  <nd ref="5297629643"/>
+  <nd ref="5297629644"/>
+  <nd ref="5297629645"/>
+  <nd ref="5297629646"/>
+  <nd ref="5297629639"/>
+  <nd ref="5297589430"/>
+  <nd ref="5297629647"/>
+  <tag k="highway" v="unclassified"/>
+ </way>
+ <way id="548365385" visible="true" version="1" changeset="54816078" timestamp="2017-12-21T14:15:23Z" user="ரவி சங்கர்" uid="3214079">
+  <nd ref="2613601311"/>
+  <nd ref="5297629637"/>
+  <tag k="highway" v="tertiary"/>
+ </way>
+ <relation id="5886028" visible="true" version="2" changeset="54815468" timestamp="2017-12-21T13:48:35Z" user="ரவி சங்கர்" uid="3214079">
+  <member type="way" ref="133660607" role="outer"/>
+  <tag k="building" v="yes"/>
+  <tag k="name" v="Indira Gandhi Hall of Residence"/>
+  <tag k="tourism" v="hostel"/>
+  <tag k="type" v="multipolygon"/>
+ </relation>
+ <relation id="5886029" visible="true" version="3" changeset="54815468" timestamp="2017-12-21T13:48:35Z" user="ரவி சங்கர்" uid="3214079">
+  <member type="way" ref="133654121" role="outer"/>
+  <tag k="addr:street" v="IIT, Kharagpur"/>
+  <tag k="building" v="yes"/>
+  <tag k="designation" v="Girls' Hostel"/>
+  <tag k="name" v="Mother Terese Hall of Residence"/>
+  <tag k="tourism" v="hostel"/>
+  <tag k="type" v="multipolygon"/>
+ </relation>
+ <relation id="7255545" visible="true" version="2" changeset="67217918" timestamp="2019-02-15T07:23:05Z" user="SmellyP" uid="9443100">
+  <member type="way" ref="390642204" role="outer"/>
+  <member type="way" ref="255760163" role="inner"/>
+  <tag k="intermittent" v="no"/>
+  <tag k="level" v="0"/>
+  <tag k="name" v="TSG Lake"/>
+  <tag k="natural" v="water"/>
+  <tag k="type" v="multipolygon"/>
+  <tag k="water" v="pond"/>
+ </relation>
+ <relation id="7255546" visible="true" version="1" changeset="48779256" timestamp="2017-05-18T05:20:07Z" user="ridixcr" uid="2508151">
+  <member type="way" ref="133649070" role="outer"/>
+  <member type="way" ref="390642205" role="inner"/>
+  <tag k="landuse" v="recreation_ground"/>
+  <tag k="name" v="Jnan Ghosh Stadium"/>
+  <tag k="type" v="multipolygon"/>
+ </relation>
+</osm>

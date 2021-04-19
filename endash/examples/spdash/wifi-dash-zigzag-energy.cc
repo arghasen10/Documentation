@@ -1,0 +1,526 @@
+#include "ns3/core-module.h"
+#include "ns3/point-to-point-module.h"
+#include "ns3/network-module.h"
+#include "ns3/applications-module.h"
+#include "ns3/mobility-module.h"
+#include "ns3/csma-module.h"
+#include "ns3/internet-module.h"
+#include "ns3/yans-wifi-helper.h"
+#include "ns3/ssid.h"
+#include "ns3/bridge-helper.h"
+#include "ns3/dash-helper.h"
+#include "ns3/wifi-phy.h"
+#include "ns3/wifi-net-device.h"
+#include "ns3/sta-wifi-mac.h"
+#include "ns3/wifi-module.h"
+#include "ns3/netanim-module.h"
+#include "ns3/energy-module.h"
+
+#include <iostream>
+#include <sys/stat.h>
+#include <sys/types.h>
+
+using namespace ns3;
+
+NS_LOG_COMPONENT_DEFINE ("ThirdScriptExample");
+
+struct ProgramConfigurations
+{
+  uint16_t nAp;
+  uint16_t nSta;
+  uint16_t interApGap;
+  std::string simTag;
+  std::string outputDir;
+  bool logging;
+  std::string animFile;
+  uint32_t downloadSize;
+  uint16_t numDownload;
+  std::string nodeTraceFile;
+  double nodeTraceInterval;
+  bool logPcap;
+};
+
+void
+onStart (int *count)
+{
+  std::cout << "Starting at:" << Simulator::Now ().GetSeconds() << std::endl;
+  (*count)++;
+}
+void
+onStop (int *count, Ptr<Node> node)
+{
+  std::cout << "Stoping " << (!node ? "": std::to_string(node->GetId())) << " at:" << Simulator::Now ().GetSeconds() << std::endl;
+  (*count)--;
+  if (!(*count))
+    {
+      Simulator::Stop ();
+    }
+}
+
+bool
+isDir (std::string path)
+{
+  struct stat statbuf;
+  if (stat (path.c_str (), &statbuf) != 0)
+    return false;
+  return S_ISDIR(statbuf.st_mode);
+}
+
+
+std::string
+readNodeTrace (NodeContainer *apNodes, Ptr<Node> node, bool firstLine = false)
+{
+  const std::string rrcStates[] =
+    {
+        "IDLE_START",
+        "IDLE_CELL_SEARCH",
+        "IDLE_WAIT_MIB_SIB1",
+        "IDLE_WAIT_MIB",
+        "IDLE_WAIT_SIB1",
+        "IDLE_CAMPED_NORMALLY",
+        "IDLE_WAIT_SIB2",
+        "IDLE_RANDOM_ACCESS",
+        "IDLE_CONNECTING",
+        "CONNECTED_NORMALLY",
+        "CONNECTED_HANDOVER",
+        "CONNECTED_PHY_PROBLEM",
+        "CONNECTED_REESTABLISHING",
+        "NUM_STATES"
+    };
+
+  if (firstLine)
+    {
+      std::string ret = "nodeId,velo_x,velo_y,pos_x,pos_y,chId,#dev,Freq,ChNo,rxGain,rxSensitivity";
+#ifdef STA_WIFI_MAC_NEW_FUNC
+      ret += ",rxSnr,rxPer,rxSignal,rxNoise,rxRate";
+#endif
+      ret += ",linkup,bssid,energy,";
+      return ret;
+    }
+
+  std::stringstream stream;
+  stream << std::to_string (node->GetId ());
+  auto mModel = node->GetObject<MobilityModel> ();
+  stream << "," << mModel->GetVelocity ().x << "," << mModel->GetVelocity ().y;
+  stream << "," << mModel->GetPosition ().x << "," << mModel->GetPosition ().y;
+
+  Ptr<WifiNetDevice> netDevice;   // = node->GetObject<MmWaveUeNetDevice>();
+  for (uint32_t i = 0; i < node->GetNDevices (); i++)
+    {
+      auto nd = node->GetDevice (i);
+      if (nd->GetInstanceTypeId () == WifiNetDevice::GetTypeId ())
+        {
+          netDevice = DynamicCast<WifiNetDevice> (nd);
+          break;
+        }
+      std::cout << "\tNode: " << node->GetId () << ", Device " << i << ": "
+          << node->GetDevice (i)->GetInstanceTypeId () << std::endl;
+    }
+
+  Ptr<StaWifiMac> mac = DynamicCast<StaWifiMac>(netDevice->GetMac());
+
+  auto sources= node->GetObject<ns3::EnergySourceContainer>();
+  NS_ASSERT(sources != 0);
+//  std::cout << emode->GetN() << std::endl;
+  Ptr<BasicEnergySource> basicSourcePtr = DynamicCast<BasicEnergySource> (sources->Get (0));
+  Ptr<DeviceEnergyModel> basicRadioModelPtr = basicSourcePtr->FindDeviceEnergyModels ("ns3::WifiRadioEnergyModel").Get (0);
+
+  stream << "," << std::to_string (netDevice->GetChannel ()->GetId());
+  stream << "," << std::to_string (netDevice->GetChannel ()->GetNDevices());
+  Ptr< WifiPhy > phy = netDevice->GetPhy();
+  stream << "," << std::to_string(phy->GetFrequency ());
+  stream << "," << std::to_string(phy->GetChannelNumber ());
+  stream << "," << std::to_string(phy->GetRxGain ());
+  stream << "," << std::to_string(phy->GetRxSensitivity ());
+#ifdef STA_WIFI_MAC_NEW_FUNC
+  auto recpStat = mac->GetLastReceptionStatus();
+  stream << "," << recpStat.snr;
+  stream << "," << recpStat.per;
+  stream << "," << recpStat.signal;
+  stream << "," << recpStat.noise;
+  stream << "," << recpStat.rxRate;
+#endif
+  stream << "," << std::to_string(netDevice->IsLinkUp());
+
+  Mac48Address remAddress = mac->GetBssid();
+  stream << "," << remAddress;
+  stream << "," << basicRadioModelPtr->GetTotalEnergyConsumption();
+
+  for(uint32_t i = 0; i < apNodes->GetN(); i++)
+    {
+      auto ap = apNodes->Get(i);
+      auto apModel = ap->GetObject<MobilityModel> ();
+      stream << "," << mModel->GetDistanceFrom(apModel);
+    }
+
+
+  return stream.str ();
+}
+
+void AssocDeassoc(Ptr<Node> node, bool assoc, Mac48Address val1) {
+  std::cout << "time: " << Simulator::Now().GetSeconds() << " assoc: " << std::to_string(assoc) << " with: " << val1 << std::endl;
+}
+
+void
+RemainingEnergy (std::ofstream *energyfs, double oldValue, double remainingEnergy)
+{
+  *energyfs <<
+      Simulator::Now ().GetSeconds () << "s Current remaining energy = " << remainingEnergy << "J" << std::endl;
+}
+
+void
+TotalEnergy (std::ofstream *energyfs, double oldValue, double totalEnergy)
+{
+  *energyfs <<
+      Simulator::Now ().GetSeconds () << "," << totalEnergy << "J" << std::endl;
+}
+
+int
+main (int argc, char *argv[])
+{
+  ProgramConfigurations conf =
+      {
+          .nAp = 3,
+          .nSta = 3,
+          .interApGap = 30,
+          .simTag = "default",
+          .outputDir = "",
+          .logging = false,
+          .animFile = "",
+          .downloadSize = 0xFFFFFF,
+          .numDownload = 1,
+          .nodeTraceFile = "trace",
+          .nodeTraceInterval = 1,
+          .logPcap = false
+      };
+
+
+  CommandLine cmd;
+
+  cmd.AddValue ("nAp", "The number of Ap in multiple-ue topology",
+                conf.nAp);
+  cmd.AddValue ("nSta", "The number of sta multiple-sta topology", conf.nSta);
+  cmd.AddValue ("interApGap", "Gap between two node", conf.interApGap);
+  cmd.AddValue ("downloadSize", "Data to be downloaded in a session (in byte)",
+                conf.downloadSize);
+  cmd.AddValue ("numDownload", "Number of download session per ue",
+                conf.numDownload);
+  cmd.AddValue ("nodeTraceFile", "Trace file path prefix", conf.nodeTraceFile);
+  cmd.AddValue ("nodeTraceInterval", "Node trace interval",
+                conf.nodeTraceInterval);
+  cmd.AddValue (
+      "simTag",
+      "tag to be appended to output filenames to distinguish simulation campaigns",
+      conf.simTag);
+  cmd.AddValue ("outputDir", "directory where to store simulation results",
+                conf.outputDir);
+  cmd.AddValue ("logging", "Enable logging", conf.logging);
+  cmd.AddValue ("logPcap", "Whether pcap files need to be store or not [0]",
+                conf.logPcap);
+
+  cmd.Parse (argc, argv);
+
+  double udpAppStartTime = 0.4; //seconds
+
+
+  Config::SetDefault("ns3::TcpSocket::SegmentSize", UintegerValue(1442));
+  Config::SetDefault("ns3::TcpSocket::InitialCwnd", UintegerValue(10));
+  Config::SetDefault("ns3::TcpSocket::RcvBufSize", UintegerValue(10485760));
+  Config::SetDefault("ns3::TcpSocket::SndBufSize", UintegerValue(10485760));
+
+
+  NodeContainer remoteHostContainer;
+  remoteHostContainer.Create (1);
+  Ptr<Node> remoteHost = remoteHostContainer.Get (0);
+
+
+  NodeContainer staNodes;
+  //  staNodes.Create (nWifi);
+  NodeContainer apNodes;
+  //  wifiApNode.Create(1); //n0
+
+
+  //===========================================================
+  double apHeight = 10;
+  //  double staHeight = 1.5;
+
+  apNodes.Create (conf.nAp);
+  staNodes.Create (conf.nSta);
+  for (uint32_t i = 0; i < conf.nAp; i++)
+    {
+      std::cout << "nAp:" << i << " : " << apNodes.Get (i)->GetId () << std::endl;
+    }
+  for (uint32_t i = 0; i < conf.nSta; i++)
+    {
+      std::cout << "sta:" << i << " : " << staNodes.Get (i)->GetId () << std::endl;
+    }
+
+  Ptr<ListPositionAllocator> apPositionAlloc = CreateObject<ListPositionAllocator> ();
+
+//  Ptr<ListPositionAllocator> staPositionAlloc = CreateObject<ListPositionAllocator> ();
+  Ptr<ListPositionAllocator> staVelocityAlloc = CreateObject<ListPositionAllocator> ();
+
+  std::vector<double> apPositions;
+
+  int32_t yValue = 0.0;
+
+  int32_t xMin, xMax, yMin, yMax;
+
+  xMin = -conf.interApGap;
+  xMax = conf.interApGap;
+  yMin = yMax = 0;
+
+  for (uint32_t i = 1; i <= apNodes.GetN (); ++i)
+    {
+      // 2.0, -2.0, 6.0, -6.0, 10.0, -10.0, ....
+      if (i % 2 != 0)
+        {
+          yValue = static_cast<int> (i) * conf.interApGap; //TODO change it
+          yMax = yValue + 30; //bounding box
+        }
+      else
+        {
+          yValue = -yValue;
+          yMin = yValue - 30; //bounding box
+        }
+
+      apPositionAlloc->Add (Vector (0.0, yValue, apHeight));
+      apPositions.push_back(yValue);
+
+    }
+
+  for (uint32_t i = 0; i < staNodes.GetN(); ++i)
+    {
+//      int32_t staXVal, staYVal;
+      int32_t speedX = 0;
+      int32_t speedY = 10;
+
+//      int32_t gI = (i/2) % (apNodes.GetN());
+//      staYVal = apPositions[gI];
+      if(i % 2 == 0) {
+//          staXVal = xMin;
+          speedX = 10;
+      }
+      else
+        {
+//          staXVal = xMax;
+          speedX = -10;
+        }
+//      staPositionAlloc->Add(Vector(staXVal, staYVal, apHeight));
+      staVelocityAlloc->Add(Vector(speedX, speedY, 0));
+    }
+
+  Ptr<RandomBoxPositionAllocator> staPositionAlloc = CreateObject<RandomBoxPositionAllocator>();
+  staPositionAlloc->SetAttribute("X", StringValue( "ns3::UniformRandomVariable[Min=" +std::to_string(xMin)+ "|Max=" + std::to_string(xMax) + "]" ));
+  staPositionAlloc->SetAttribute("Y", StringValue( "ns3::UniformRandomVariable[Min=" +std::to_string(yMin)+ "|Max=" + std::to_string(yMax) + "]" ));
+
+
+  MobilityHelper apMobility, staMobility;
+
+  apMobility.SetMobilityModel ("ns3::ConstantPositionMobilityModel");
+  apMobility.SetPositionAllocator (apPositionAlloc);
+  apMobility.Install (apNodes);
+
+  apMobility.Install(remoteHostContainer);
+
+//  staMobility.SetMobilityModel ("ns3::RandomWalk2dMobilityModel",
+//                                "Bounds", RectangleValue (Rectangle (xMin, xMax, yMin, yMax)));
+  staMobility.SetMobilityModel ( "ns3::ConstantSpeedZigzagBoxMobilityModel",
+                                 "Bounds", RectangleValue (Rectangle (xMin, xMax, yMin, yMax)),
+                                 "VelocityAllocator", PointerValue(staVelocityAlloc));
+
+  staMobility.SetPositionAllocator (staPositionAlloc);
+  staMobility.Install (staNodes);
+
+  if (!isDir (conf.outputDir))
+    {
+      mkdir (conf.outputDir.c_str (), S_IRWXU);
+    }
+
+  //===========================================================
+
+  YansWifiChannelHelper channel;// = YansWifiChannelHelper::Default ();
+  channel.SetPropagationDelay("ns3::ConstantSpeedPropagationDelayModel");
+  channel.AddPropagationLoss ("ns3::FriisPropagationLossModel", "Frequency",DoubleValue(2.412e9));
+//  channel.AddPropagationLoss ("ns3::FriisPropagationLossModel", "Frequency", DoubleValue (2.4e9)); //wireless range limited to 5 meters!
+//  channel.AddPropagationLoss("ns3::RangePropagationLossModel", "MaxRange", DoubleValue(50.0));
+  YansWifiPhyHelper phy = YansWifiPhyHelper::Default ();
+
+#ifndef OLD_NS3
+  phy.SetPcapDataLinkType (WifiPhyHelper::DLT_IEEE802_11_RADIO);
+#endif
+  phy.SetChannel (channel.Create ());
+
+  WifiHelper wifi;
+//  wifi.SetRemoteStationManager ("ns3::AarfWifiManager");
+//  wifi.SetStandard (WIFI_PHY_STANDARD_80211n_2_4GHZ);
+
+#ifdef OLD_NS3
+  NqosWifiMacHelper mac = NqosWifiMacHelper::Default ();
+#else
+  WifiMacHelper mac;
+#endif
+  Ssid ssid = Ssid ("ns-3-ssid");
+
+  mac.SetType ("ns3::ApWifiMac",
+               "Ssid", SsidValue (ssid));
+  NetDeviceContainer apDevices;
+  apDevices = wifi.Install (phy, mac, apNodes);
+
+  mac.SetType ("ns3::StaWifiMac",
+               "Ssid", SsidValue (ssid),
+               "ActiveProbing", BooleanValue (false));
+  NetDeviceContainer staDevices;
+  staDevices = wifi.Install (phy, mac, staNodes);
+  //===========================================================
+  //  InternetStackHelper stack;
+  // stack.Install (csmaNodes);
+
+  InternetStackHelper stack;
+  CsmaHelper csma;
+  csma.SetChannelAttribute ("DataRate", StringValue ("5Mbps"));
+  csma.SetChannelAttribute ("Delay", TimeValue (NanoSeconds (6560)));
+
+  stack.Install(remoteHostContainer);
+//  NetDeviceContainer remoteHostDevice = csma.Install(remoteHostContainer);
+
+  stack.Install (apNodes);
+  NetDeviceContainer backboneDevices;
+  NetDeviceContainer bridgeDevices;
+  backboneDevices = csma.Install (NodeContainer(apNodes, remoteHost));
+  for(uint32_t i=0; i < conf.nAp; i++) {
+      BridgeHelper bridge;
+      NetDeviceContainer bridgeDev;
+      bridgeDev = bridge.Install (apNodes.Get (i), NetDeviceContainer (apDevices.Get(i), backboneDevices.Get (i)));
+      bridgeDevices.Add(bridgeDev);
+  }
+
+  stack.Install (staNodes);
+
+  Ipv4AddressHelper address;
+
+
+  address.SetBase ("10.1.3.0", "255.255.255.0");
+  Ipv4InterfaceContainer remotehostIpIfaces = address.Assign(backboneDevices.Get(conf.nAp));
+  Ipv4InterfaceContainer wifiInterface = address.Assign (bridgeDevices);
+  address.Assign (staDevices);
+  //===========================================================
+  std::cout << remotehostIpIfaces.GetAddress(0) << " Num b:" << bridgeDevices.GetN() << " sta:" << staDevices.GetN() << " nAp:" << conf.nAp << std::endl;
+  std::cout << "BbN:" << apNodes.GetN() << " bbDev:" << backboneDevices.GetN() << " apdev:" << apDevices.GetN() << std::endl;
+  //===========================================================
+
+
+
+  //========================================================================
+  // Enery module
+  /* energy source */
+  BasicEnergySourceHelper basicSourceHelper;
+  // configure energy source
+  basicSourceHelper.Set ("BasicEnergySourceInitialEnergyJ", DoubleValue (1000));
+  // install source
+  EnergySourceContainer sources = basicSourceHelper.Install (staNodes);
+  /* device energy model */
+  WifiRadioEnergyModelHelper radioEnergyHelper;
+  // configure radio energy model
+//  radioEnergyHelper.Set ("TxCurrentA", DoubleValue (0.0174));
+  // install device model
+  DeviceEnergyModelContainer deviceModels = radioEnergyHelper.Install (staDevices, sources);
+
+  std::ofstream **energyfs = nullptr;
+//  if(!conf.outputDir.empty ())
+//    {
+//      energyfs = new std::ofstream*[staNodes.GetN()];
+//      for(int i = 0; i < (int)staNodes.GetN(); i++)
+//        {
+//          Ptr<BasicEnergySource> basicSourcePtr = DynamicCast<BasicEnergySource> (sources.Get (i));
+//          Ptr<DeviceEnergyModel> basicRadioModelPtr =
+//              basicSourcePtr->FindDeviceEnergyModels ("ns3::WifiRadioEnergyModel").Get (0);
+//          NS_ASSERT (basicRadioModelPtr != NULL);
+////          std::cout << basicSourcePtr->FindDeviceEnergyModels ("ns3::WifiRadioEnergyModel").GetN() << std::endl;
+//
+//          energyfs[i] = new std::ofstream(conf.outputDir + "/energy-" + std::to_string(i) + ".log");
+////          basicSourcePtr->TraceConnectWithoutContext ("RemainingEnergy", MakeBoundCallback (RemainingEnergy, energyfs[i]));
+//          basicRadioModelPtr->TraceConnectWithoutContext ("TotalEnergyConsumption", MakeBoundCallback (TotalEnergy, energyfs[i]));
+//        }
+////      return 1;
+//    }
+  /***************************************************************************/
+
+
+
+  uint16_t dlPort = 1234;
+  ApplicationContainer clientApps, serverApps;
+
+  auto trackNode = staNodes.Get(0);
+  std::string trcSrc = "/NodeList/" + std::to_string(trackNode->GetId ()) + "/DeviceList/*/$ns3::WifiNetDevice/Mac/$ns3::StaWifiMac/";
+  Config::ConnectWithoutContext(trcSrc + "Assoc", MakeBoundCallback(AssocDeassoc, trackNode, true));
+  Config::ConnectWithoutContext(trcSrc + "DeAssoc", MakeBoundCallback(AssocDeassoc, trackNode, false));
+
+
+  //  ApplicationContainer clientAppsEmbb, serverAppsEmbb;
+
+  DashServerHelper dashSrHelper (dlPort);
+  serverApps.Add (dashSrHelper.Install (remoteHost));
+
+  int counter = 0;
+  DashClientHelper dlClient (remotehostIpIfaces.GetAddress (0), dlPort); //Remotehost is the second node, pgw is first
+  dlClient.SetAttribute ("OnStartCB",
+                         CallbackValue (MakeBoundCallback (onStart, &counter)));
+  dlClient.SetAttribute ("OnStopCB",
+                         CallbackValue (MakeBoundCallback (onStop, &counter)));
+  dlClient.SetAttribute ("NodeTraceInterval",
+                         TimeValue (Seconds (conf.nodeTraceInterval)));
+  dlClient.SetAttribute ("NodeTraceHelperCallBack", CallbackValue (MakeCallback (readNodeTrace)));
+  dlClient.SetAttribute ("NodeTraceHelperCallBack",
+                         CallbackValue (MakeBoundCallback (readNodeTrace, &apNodes)));
+  dlClient.SetAttribute ("Timeout", TimeValue(Seconds(-1)));
+
+  if (!conf.outputDir.empty ()) {
+      dlClient.SetAttribute ("NodeTracePath", StringValue (conf.outputDir + "/" + conf.nodeTraceFile));
+    dlClient.SetAttribute ("TracePath", StringValue (conf.outputDir + "/TraceData"));
+    dlClient.SetAttribute("AbrLogPath", StringValue (conf.outputDir + "/AbrData"));
+  }
+
+//  dlClient.SetAttribute("VideoFilePath",
+//        StringValue(conf.vidPath));
+
+  clientApps = dlClient.Install (staNodes);
+
+  serverApps.Start (Seconds (udpAppStartTime));
+  clientApps.Start (Seconds (udpAppStartTime + 1));
+  //===========================================================
+  AnimationInterface *anim;
+  if (!conf.outputDir.empty () && conf.logPcap) {
+    csma.EnablePcapAll (conf.outputDir + "/nr-csma");
+    phy.EnablePcapAll(conf.outputDir + "/nr-wifi");
+
+    anim = new AnimationInterface(conf.outputDir + "/anim.xml");
+    anim->EnablePacketMetadata ();
+
+    for (uint32_t i = 0; i < staNodes.GetN (); ++i)
+        {
+          anim->UpdateNodeDescription (staNodes.Get (i), "STA"); // Optional
+          anim->UpdateNodeColor (staNodes.Get (i), 255, 0, 0); // Optional
+        }
+      for (uint32_t i = 0; i < apNodes.GetN (); ++i)
+        {
+          anim->UpdateNodeDescription (apNodes.Get (i), "AP"); // Optional
+          anim->UpdateNodeColor (apNodes.Get (i), 0, 255, 0); // Optional
+        }
+      for (uint32_t i = 0; i < remoteHostContainer.GetN (); ++i)
+        {
+          anim->UpdateNodeDescription (remoteHostContainer.Get (i), "CSMA"); // Optional
+          anim->UpdateNodeColor (remoteHostContainer.Get (i), 0, 0, 255); // Optional
+        }
+  }
+
+
+  Simulator::Run ();
+
+  Simulator::Destroy ();
+  delete anim;
+  if(energyfs) {
+      delete energyfs;
+  }
+  return 0;
+}

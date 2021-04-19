@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sun 11 Oct 2020 11:57:50 PM IST by Eclipse SUMO netedit Version 1.7.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/abhijit/projects/ns-3.31/src/spdash/mobilitydata/2.2.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/abhijit/projects/ns-3.31/src/spdash/mobilitydata/2.2.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <route-files value="/home/abhijit/projects/ns-3.31/src/spdash/mobilitydata/2.2.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="DEFAULT_VEHTYPE" maxSpeed="5.00" vClass="passenger"/>
+    <route edges="133654053#3 133654053#4 133654053#5 133654053#6 133654053#7 -548361636 133654053#0 133654053#1 133654053#2 133654053#3 133654053#4 133654053#5 133654053#6 133654053#7 -548361636 133654053#0 133654053#1 133654053#2 133654053#3 133654053#4 133654053#5 133654053#6 133654053#7 -548361636 133654053#0 133654053#1 133654053#2 133654053#3 133654053#4 133654053#5 133654053#6 133654053#7 -548361636 133654053#0 133654053#1 133654053#2 133654053#3 133654053#4 133654053#5 133654053#6 133654053#7 -548361636 133654053#0 133654053#1 133654053#2 133654053#3 133654053#4 133654053#5 133654053#6 133654053#7 -548361636 133654053#0 133654053#1 133654053#2 133654053#3 133654053#4 133654053#5 133654053#6 133654053#7 -548361636 133654053#0 133654053#1" color="blue" id="route_0"/>
+    <vehicle id="vehicle_0" depart="0.00" color="255,25,0" route="route_0"/>
+</routes>
